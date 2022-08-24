@@ -1,0 +1,7 @@
+{
+  "name": "@asktris/web",
+  "version": "1.0.0",
+  "description": "web package",
+  "main": "index.js",
+  "license": "MIT"
+}

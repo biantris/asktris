@@ -1,0 +1,7 @@
+{
+  "name": "@asktris/server",
+  "version": "1.0.0",
+  "description": "server package",
+  "main": "index.js",
+  "license": "MIT"
+}
