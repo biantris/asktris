@@ -3,9 +3,9 @@ import { createServer } from 'http';
 
 import dotenv from 'dotenv';
 
-import { environment, serverConf } from '../shared/';
+import { environment, serverConf } from './shared';
 
-import { connectDB } from '../database/database';
+import { connectDB } from './database/database';
 
 import app from './app';
 
