@@ -6,7 +6,7 @@ import bodyParser from 'koa-bodyparser';
 
 import koaPlayground from 'graphql-playground-middleware-koa';
 
-import { schema } from '../schema/schema';
+import { schema } from './schema/schema';
 
 //import { getDataloaders } from './graphql/loaderRegister';
 
