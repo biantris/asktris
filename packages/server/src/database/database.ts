@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import mongoose from 'mongoose';
 
-import { config } from '../src/config';
+import { config } from '../config';
 
 export const connectDB = () => {
   mongoose.connect(config.MONGO_URI, {
