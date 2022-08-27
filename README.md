@@ -2,10 +2,10 @@
     asktris
 </h1>
 
-> Full Stack Challenge at AskLisa and fs playground
+> Full Stack Challenge at AskLisa and Monorepo playground
 
 ### to-do
-[wip]
+- [to-do (kanban) ](https://github.com/users/biantris/projects/3/views/1)
 
 ### Stack
 [wip]
