@@ -1,3 +1,4 @@
-import config from '@asktris/babel';
+/* eslint-disable @typescript-eslint/no-var-requires */
+const config = require('@asktris/babel');
 
-export default config;
+module.exports = config;

@@ -13,7 +13,7 @@ import app from './app';
   dotenv.config();
   // starting db
   try {
-    await connectDB();
+    connectDB();
   } catch (error) {
     console.error('Unable to connect to database');
     process.exit(1);
