@@ -28,10 +28,9 @@
 [wip]
 
 ### Getting Started
-#### Server
-
 - clone this repo
 
+#### Server
 - go to the server path ../packages/server
 
 ```sh
