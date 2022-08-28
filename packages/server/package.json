@@ -2,9 +2,8 @@
   "name": "@asktris/server",
   "version": "1.0.0",
   "description": "server package",
-  "main": "index.js",
-  "type": "module",
-  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "src/server.ts",
   "dependencies": {
     "@entria/graphql-mongo-helpers": "^1.1.2",
     "@entria/graphql-mongoose-loader": "^4.3.2",
@@ -64,8 +63,8 @@
     "jest-junit": "14.0.0",
     "mongodb-memory-server-global": "6.9.3",
     "reload-server-webpack-plugin": "1.0.1",
-    "webpack": "5.74.0",
-    "webpack-cli": "4.10.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
     "webpack-dev-server": "4.10.0",
     "webpack-merge": "5.8.0",
     "webpack-node-externals": "3.0.0"

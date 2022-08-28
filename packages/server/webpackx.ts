@@ -1,12 +1,11 @@
 import path from 'path';
-
 import { ChildProcess, spawn } from 'child_process';
 
 import webpack from 'webpack';
 
 import config, { outputPath, outputFilename } from './webpack/webpack.config';
 
-const compilerRunPromise = compiler =>
+const compilerRunPromise = (compiler: webpack.Compiler) =>
   new Promise((resolve, reject) => {
     compiler.run((err, stats) => {
       if (err) {
