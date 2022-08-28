@@ -18,8 +18,8 @@
 - [x] Relay
 - [ ] Jest
 - [ ] SuperTest
-- [ ] Linter (Eslint)
-- [ ] Prettier
+- [x] Linter (Eslint)
+- [x] Prettier
 
 #### ➜ Web
 [wip]
