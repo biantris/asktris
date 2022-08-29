@@ -17,6 +17,7 @@
 - [x] MongoDB
 - [x] Mongoose
 - [x] GraphQL
+- [ ] API REST
 - [x] Relay
 - [ ] Jest
 - [ ] SuperTest
