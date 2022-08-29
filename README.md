@@ -16,9 +16,8 @@
 - [x] Koa
 - [x] MongoDB
 - [x] Mongoose
-- [x] GraphQL
+- [ ] GraphQL(Relay)
 - [ ] API REST
-- [x] Relay
 - [ ] Jest
 - [ ] SuperTest
 - [x] Linter (Eslint)
