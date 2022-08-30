@@ -35,11 +35,15 @@ const ResultSchema = new Schema(
   {
     repositoryName: {
       type: String,
-      required: 'Repository name is required',
+      required: [true, 'Repository name is required'],
     },
     status: {
       type: String,
-      required: 'Status is required',
+      required: [true, 'Status is required'],
+      enum: {
+        values: ['Queued', 'In Progress', 'Success', 'Failure'],
+        message: 'Status should Queued/In Progress/Success/Failure',
+      },
     },
     findings: {
       type: [FindingSchema],
