@@ -7,16 +7,17 @@ const WebpackNodeExternals = require('webpack-node-externals');
 
 const ReloadServerPlugin = require('./webpack/ReloadServerPlugin');
 
+const filename = 'api.js';
+
 module.exports = {
   mode: 'development',
   devtool: 'eval-cheap-source-map',
   entry: {
     server: ['./src/server.ts'],
   },
-  optimization: { minimize: false },
   output: {
     path: path.resolve('build'),
-    filename: 'graphql.js',
+    filename,
   },
   target: 'node',
   node: {
@@ -48,9 +49,8 @@ module.exports = {
   },
   plugins: [
     new ReloadServerPlugin({
-      script: path.resolve('build', 'graphql.js'),
+      script: path.resolve('build', filename),
     }),
-    new webpack.HotModuleReplacementPlugin(),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('development'),
     }),
