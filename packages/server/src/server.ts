@@ -3,9 +3,9 @@ import { createServer } from 'http';
 
 import dotenv from 'dotenv';
 
-import { environment, serverConf } from './shared';
-
 import { connectDB } from './database/database';
+
+import { environment, serverConf } from './shared';
 
 import app from './app';
 
@@ -13,7 +13,7 @@ import app from './app';
   dotenv.config();
   // starting db
   try {
-    connectDB();
+    await connectDB();
   } catch (error) {
     console.error('Unable to connect to database');
     process.exit(1);
@@ -21,7 +21,7 @@ import app from './app';
 
   const server = createServer(app.callback());
 
-  server.listen(process.env.PORT, () => console.log('Server running 🚀'));
+  server.listen(process.env.PORT || 9000, () => console.log('Server running 🚀'));
   console.log(`App running on ${environment.toUpperCase()} mode and listening on port ${serverConf.SERVER_PORT} ...`);
-  console.log(`GraphQL Server is now running on http://localhost:${process.env.PORT}/graphql`);
+  console.log(`Server is now running on http://localhost:${process.env.PORT}/api/version`);
 })();

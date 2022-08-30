@@ -1,60 +1,38 @@
-/* eslint-disable no-console */
 import Koa from 'koa';
-import GraphQLHTTP from 'koa-graphql';
-import Router from 'koa-router';
 import bodyParser from 'koa-bodyparser';
+import logger from 'koa-logger';
+import Router from 'koa-router';
+import cors from 'koa-cors';
 
-import koaPlayground from 'graphql-playground-middleware-koa';
+import { version } from '../package.json';
 
-import { schema } from './schema/schema';
+import routerResult from '../../server/src/routes/resultRoutes';
 
-//import { getDataloaders } from './graphql/loaderRegister';
+import { resultPost } from './api/result/resultPost';
 
 const app = new Koa();
-const router = new Router();
 
-const graphqlSettingsPerReq = async (req, ctx, koaContext) => {
-  const { event } = koaContext;
-  //const dataloaders = getDataloaders();
+const routerOpen = new Router();
 
-  return {
-    graphiql: true,
-    schema,
-    context: {
-      event,
-      req,
-      //dataloaders,
-    },
-    formatError: error => {
-      console.log(error.message);
-      console.log(error.locations);
-      console.log(error.stack);
+app.use(logger());
+app.use(cors({ maxAge: 86400 }));
+app.use(bodyParser());
 
-      return {
-        message: error.message,
-        locations: error.locations,
-        stack: error.stack,
-      };
-    },
+routerOpen.get('/api/version', ctx => {
+  ctx.status = 200;
+  ctx.body = {
+    status: 'OK',
+    version,
   };
-};
-
-const graphqlServer = GraphQLHTTP(graphqlSettingsPerReq);
-
-router.get('/', async ctx => {
-  ctx.body = 'Welcome asktris server (~˘▾˘)~';
 });
 
-router.all('/graphql', graphqlServer);
+routerOpen.post('/api/result', resultPost);
 
-router.all(
-  '/playground',
-  koaPlayground({
-    endpoint: '/graphql',
-  }),
-);
+app.use(routerOpen.routes());
+app.use(routerResult.routes());
 
-app.use(bodyParser());
-app.use(router.routes()).use(router.allowedMethods());
+app.use(ctx => {
+  ctx.status = 404;
+});
 
 export default app;

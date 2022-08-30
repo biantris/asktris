@@ -2,7 +2,7 @@ import mongoose, { Document, Model } from 'mongoose';
 
 const Schema = mongoose.Schema;
 
-const findingSchema = new Schema({
+const FindingSchema = new Schema({
   type: {
     type: String,
   },
@@ -42,7 +42,7 @@ const ResultSchema = new Schema(
       required: 'Status is required',
     },
     findings: {
-      type: [findingSchema],
+      type: [FindingSchema],
     },
     queuedAt: {
       type: Date,
@@ -55,7 +55,7 @@ const ResultSchema = new Schema(
     },
   },
   {
-    collection: 'Event',
+    collection: 'Result',
     timestamps: true,
   },
 );
