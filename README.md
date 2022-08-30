@@ -1,10 +1,8 @@
-![image](https://user-images.githubusercontent.com/65451957/187095823-d205ddc1-ffa8-4cba-89f8-fa17febd990a.png)
-
 <h1 align="center">
     asktris
 </h1>
 
-> Full Stack Challenge at AskLisa and Monorepo playground
+> Full Stack Challenge at AskLisa
 
 ### to-do
 ➜ [to-do (kanban) ](https://github.com/users/biantris/projects/3/views/1)
@@ -16,15 +14,17 @@
 - [x] Koa
 - [x] MongoDB
 - [x] Mongoose
-- [ ] GraphQL(Relay)
-- [ ] API REST
-- [ ] Jest
-- [ ] SuperTest
+- [x] API REST
+- [x] Jest
+- [x] SuperTest
 - [x] Linter (Eslint)
 - [x] Prettier
 
 #### ➜ Web
-[wip]
+- [ ] TypeScript
+- [ ] NextTS
+- [ ] Axios
+- [ ] Mui
 
 ### Project architecture
 [wip]
@@ -47,18 +47,23 @@
 # start project
 > yarn start
 
-# see on GraphiQL graphql interface on localhost link
-http://localhost:9000/graphql
-
-# or see graphql Playground
-http://localhost:9000/playground
-```
-
-#### Generating the schema
-```sh
-> yarn schema
+# open in
+http://localhost:9000/api/version
 ```
 #### Web
-[wip]
+- go to the web path ../packages/web
+
+```sh
+> yarn
+> yarn dev
+```
+
+#### APIs
+- [x] resultGet
+- [ ] resultGetAll
+- [x] resultPost
+- [ ] resultUpdate
+- [ ] resultDelete
+
 ## demo
 [wip]
