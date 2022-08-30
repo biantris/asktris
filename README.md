@@ -32,7 +32,7 @@
 - [x] Prettier
 
 ### Project architecture
-[wip]
+🚧 wip 🚧
 
 ```
 .
@@ -90,5 +90,8 @@ http://localhost:9000/api/version
 - [ ] resultUpdate
 - [ ] resultDelete
 
+### GraphQL
+🚧 wip 🚧
+
 ## demo
-[wip]
+🚧 wip 🚧
