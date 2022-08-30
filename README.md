@@ -34,6 +34,18 @@
 ### Project architecture
 [wip]
 
+```
+.
+├── packages/
+│   └── api
+|   └── server
+|   └── web
+|   └── ui
+|   └── webpack
+|   └── babel
+└── ...
+```
+
 ### Getting Started
 - clone this repo
 
