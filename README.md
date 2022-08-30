@@ -2,7 +2,7 @@
     asktris
 </h1>
 
-> Full Stack Challenge at AskLisa
+> FullStack Playgorund and Challenge at AskLisa
 
 ### to-do
 ➜ [to-do (kanban) ](https://github.com/users/biantris/projects/3/views/1)
@@ -11,6 +11,7 @@
 
 #### ➜ Server
 
+- [x] TypeScript
 - [x] Koa
 - [x] MongoDB
 - [x] Mongoose
@@ -22,10 +23,13 @@
 
 #### ➜ Web
 - [ ] TypeScript
-- [ ] NextTS
+- [ ] ReactTS
 - [ ] Axios
 - [ ] Mui
 - [ ] Jest + Testing Library
+- [ ] Storybook
+- [x] Linter (Eslint)
+- [x] Prettier
 
 ### Project architecture
 [wip]
