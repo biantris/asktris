@@ -25,6 +25,7 @@
 - [ ] NextTS
 - [ ] Axios
 - [ ] Mui
+- [ ] Jest + Testing Library
 
 ### Project architecture
 [wip]
@@ -54,7 +55,15 @@ http://localhost:9000/api/version
 - go to the web path ../packages/web
 
 ```sh
+# install dependencies
 > yarn
+# or
+> yarn install
+
+# copy .env file
+> cp .env.example .env
+
+# start project
 > yarn dev
 ```
 
