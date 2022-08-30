@@ -37,12 +37,14 @@
 ```
 .
 ├── packages/
-│   └── api
-|   └── server
-|   └── web
-|   └── ui
-|   └── webpack
+│   └── api [wip]
 |   └── babel
+|   └── server
+|   └── ui [wip]
+|   └── shared
+|   └── test
+|   └── types
+|   └── wep
 └── ...
 ```
 
