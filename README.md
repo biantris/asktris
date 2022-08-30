@@ -50,7 +50,7 @@
 - clone this repo
 
 #### Server
-- go to the server path ../packages/server
+- go to the server path `../packages/server`
 
 ```sh
 # install dependencies
@@ -68,7 +68,7 @@
 http://localhost:9000/api/version
 ```
 #### Web
-- go to the web path ../packages/web
+- go to the web path `../packages/web`
 
 ```sh
 # install dependencies
