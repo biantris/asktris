@@ -5,6 +5,8 @@ const webpack = require('webpack');
 
 const WebpackNodeExternals = require('webpack-node-externals');
 
+const { NormalModuleReplacementPlugin } = require('webpack');
+
 const ReloadServerPlugin = require('./webpack/ReloadServerPlugin');
 
 const filename = 'api.js';
@@ -54,5 +56,6 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('development'),
     }),
+    new NormalModuleReplacementPlugin(/^hexoid$/, require.resolve('hexoid/dist/index.js')),
   ],
 };
