@@ -11,7 +11,7 @@ type ApiResult = {
 const resultSchema = yup.object().shape({
   repositoryName: yup.string().required(),
   status: yup.string().required(),
-  findings: yup.string().required(),
+  findings: yup.array().required(),
 });
 
 export const validateResultApi = async (apiResult: ApiResult) => {
@@ -32,7 +32,7 @@ export const validateResultApi = async (apiResult: ApiResult) => {
   }
 
   return {
-    user: apiResult,
+    result: apiResult,
     error: null,
   };
 };
@@ -61,7 +61,7 @@ export const validateResultUpdateApi = async (apiResult: ApiResult) => {
   }
 
   return {
-    user: apiResult,
+    result: apiResult,
     error: null,
   };
 };
