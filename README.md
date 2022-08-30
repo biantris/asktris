@@ -44,7 +44,7 @@
 |   └── shared
 |   └── test
 |   └── types
-|   └── wep
+|   └── web
 └── ...
 ```
 
