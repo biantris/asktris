@@ -1,9 +1,11 @@
+/* eslint-disable @typescript-eslint/ban-ts-ignore */
 /* eslint-disable no-console */
 import mongoose from 'mongoose';
 
 import { config } from '../config';
 
 export const connectDB = () => {
+  //@ts-ignore
   mongoose.connect(config.MONGO_URI, {
     useNewUrlParser: true,
     useCreateIndex: true,
