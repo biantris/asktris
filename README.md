@@ -22,8 +22,8 @@
 - [x] Prettier
 
 #### ➜ Web
-- [ ] TypeScript
-- [ ] ReactTS
+- [x] TypeScript
+- [x] ReactTS
 - [ ] Axios
 - [ ] Mui
 - [ ] Jest + Testing Library
