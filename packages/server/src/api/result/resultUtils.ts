@@ -21,13 +21,13 @@ export const validateResultApi = async (apiResult: ApiResult) => {
     if (err instanceof yup.ValidationError) {
       return {
         error: err.message,
-        user: null,
+        result: null,
       };
     }
 
     return {
       err,
-      user: null,
+      result: null,
     };
   }
 
@@ -50,13 +50,13 @@ export const validateResultUpdateApi = async (apiResult: ApiResult) => {
     if (err instanceof yup.ValidationError) {
       return {
         error: err.message,
-        user: null,
+        result: null,
       };
     }
 
     return {
       err,
-      user: null,
+      result: null,
     };
   }
 
