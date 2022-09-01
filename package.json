@@ -112,6 +112,7 @@
     "jest-fetch-mock": "^3.0.3",
     "koa-cors": "^0.0.16",
     "koa-logger": "^3.2.1",
+    "moment": "^2.29.4",
     "mongodb-memory-server-global": "^6.6.1",
     "react-router-dom": "^6.3.0",
     "semantic-ui-css": "^2.4.1",
