@@ -1,9 +1,9 @@
 import Router from 'koa-router';
 
-// import { resultUpdate } from '../../api/result/userUpdate';
-// import { resultDelete } from '../../api/result/userDelete';
+// import { resultUpdate } from '../../api/result/resultUpdate';
+// import { resultDelete } from '../../api/result/resultDelete';
 import { resultGet } from '../api/result/resultGet';
-// import { resultGetAll } from '../../api/user/userGetAll';
+// import { resultGetAll } from '../../api/result/resultGetAll';
 
 const routerResult = new Router({
   prefix: '/api/result',

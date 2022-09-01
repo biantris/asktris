@@ -27,8 +27,7 @@ class MongoDbEnvironment extends NodeEnvironment {
     this.global.__MONGO_URI__ = await this.mongod.getConnectionString();
     this.global.__MONGO_DB_NAME__ = await this.mongod.getDbName();
     this.global.__COUNTERS__ = {
-      user: 0,
-      company: 0,
+      result: 0,
     };
   }
 

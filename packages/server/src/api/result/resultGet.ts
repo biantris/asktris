@@ -79,7 +79,7 @@ export const getResultApi = async ({ repositoryName, id, isDelete }: IGetResultA
 
   if (!result) {
     return {
-      error: 'User not found',
+      error: 'Result not found',
       result: null,
     };
   }

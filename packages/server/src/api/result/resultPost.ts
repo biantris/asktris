@@ -52,7 +52,7 @@ export const resultPost = async ctx => {
 
     ctx.status = 200;
     ctx.body = {
-      user: resultNormalized,
+      result: resultNormalized,
     };
 
     return;
