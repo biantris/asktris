@@ -107,6 +107,7 @@
   },
   "dependencies": {
     "@types/supertest": "^2.0.12",
+    "axios": "^0.27.2",
     "jest-environment-node": "^26.0.1",
     "jest-fetch-mock": "^3.0.3",
     "koa-cors": "^0.0.16",
