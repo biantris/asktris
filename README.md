@@ -9,6 +9,17 @@
 
 ### Stack
 
+#### ➜ Root
+- [x] Linter (Eslint)
+- [x] Prettier
+- [x] Commitlint
+- [x] Editorconfig
+- [x] Lint staged
+- [x] Pre-commit
+- [x] Lerna + Yan Workspace
+- [ ] Dockerfile
+- [ ] CI w/ Github Actions
+
 #### ➜ Server
 
 - [x] TypeScript
@@ -20,16 +31,18 @@
 - [x] SuperTest
 - [x] Linter (Eslint)
 - [x] Prettier
+- [x] Webpack + babel
 
 #### ➜ Web
 - [x] TypeScript
 - [x] ReactTS
 - [ ] Axios
-- [ ] Mui
+- [x] Semantic UI
 - [ ] Jest + Testing Library
 - [ ] Storybook
 - [x] Linter (Eslint)
 - [x] Prettier
+- [x] Vite
 
 ### Project architecture
 🚧 wip 🚧
