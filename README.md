@@ -36,7 +36,7 @@
 #### ➜ Web
 - [x] TypeScript
 - [x] ReactTS
-- [ ] Axios
+- [x] Axios
 - [x] Semantic UI
 - [ ] Jest + Testing Library
 - [ ] Storybook
