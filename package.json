@@ -101,6 +101,7 @@
     "build:test": "yarn workspace @asktris/test build",
     "web": "yarn workspace @asktris/web dev",
     "jest": "jest",
+    "jest:server": "yarn workspace @asktris/server jest",
     "lint": "eslint .",
     "lint:staged": "lint-staged",
     "prettier": "prettier --write --single-quote true --trailing-comma all --print-width 120",

@@ -1,4 +1,4 @@
-name: Tests
+name: Tests - Server
 
 on:
   push:
@@ -19,4 +19,4 @@ jobs:
         with:
           node-version: '16'
       - run: yarn
-      - run: yarn jest
+      - run: yarn jest:server
