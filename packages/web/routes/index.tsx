@@ -4,7 +4,7 @@ import { Routes as RoutesConfig, Route } from 'react-router-dom';
 
 import Home from '../src/pages/home/home';
 // import ScanResults from "../pages/scanResults/ScanResults";
-// import PageNotFound from "../pages/pageNoFound/PageNotFound";
+import PageNotFound from '../src/pages/pageNoFound/PageNotFound';
 // import NewScanResult from "../pages/newScanResult/NewScanResult";
 // import DetailScanResult from "../pages/detailScanResult/DetailScanResult";
 
@@ -14,8 +14,8 @@ const Routes = () => {
       <Route path='/' element={<Home />} />
       {/* <Route path='/new' element={<NewScanResult />} />
       <Route path='/results' element={<ScanResults />} />
-      <Route path='/results/:id' element={<DetailScanResult />} />
-      <Route path='*' element={<PageNotFound />} /> */}
+      <Route path='/results/:id' element={<DetailScanResult />} />*/}
+      <Route path='*' element={<PageNotFound />} />
     </RoutesConfig>
   );
 };
