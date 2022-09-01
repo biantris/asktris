@@ -4,10 +4,7 @@
 
 <p align="center">
    <a href="https://github.com/biantris/asktris/actions">
-      <img alt="Tests Passing" src="https://github.com/biantris/asktris/actions/workflows/test.yml/badge.svg" />
-    </a>
-    <a href="https://github.com/biantris/asktris/actions">
-      <img alt="Lint" src="https://github.com/biantris/asktris/actions/workflows/lint.yml/badge.svg" />
+      <img alt="Tests server Passing" src="https://github.com/biantris/asktris/actions/workflows/test-server.yml/badge.svg" />
     </a>
     <a href="https://twitter.com/intent/follow?screen_name=biantris_">
         <img src="https://img.shields.io/twitter/follow/biantris_?style=social&logo=twitter"
