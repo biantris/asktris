@@ -101,6 +101,8 @@
     "build:test": "yarn workspace @asktris/test build",
     "web": "yarn workspace @asktris/web dev",
     "jest": "jest",
+    "jest:server": "yarn workspace @asktris/server jest",
+    "lint": "eslint .",
     "lint:staged": "lint-staged",
     "prettier": "prettier --write --single-quote true --trailing-comma all --print-width 120",
     "server": "yarn workspace @asktris/server start"
@@ -108,6 +110,7 @@
   "dependencies": {
     "@types/supertest": "^2.0.12",
     "axios": "^0.27.2",
+    "eslint-plugin-mocha-no-only": "^1.1.1",
     "jest-environment-node": "^26.0.1",
     "jest-fetch-mock": "^3.0.3",
     "koa-cors": "^0.0.16",

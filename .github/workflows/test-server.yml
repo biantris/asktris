@@ -1,4 +1,4 @@
-name: Lint
+name: Tests - Server
 
 on:
   push:
@@ -15,9 +15,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v1
         with:
           node-version: '16'
       - run: yarn
-      - run: yarn format
-      - run: yarn lint
+      - run: yarn jest:server

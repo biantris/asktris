@@ -7056,6 +7056,13 @@ eslint-plugin-jsx-a11y@6.4.1:
     jsx-ast-utils "^3.1.0"
     language-tags "^1.0.5"
 
+eslint-plugin-mocha-no-only@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mocha-no-only/-/eslint-plugin-mocha-no-only-1.1.1.tgz#2da56949776e8c5455cfeb67f2747d2d8cf522fc"
+  integrity sha512-b+vgjJQ3SjRQCygBhomtjzvRQRpIP8Yd9cqwNSbcoVJREuNajao7M1Kl1aObAUc4wx98qsZyQyUSUxiAbMS9yA==
+  dependencies:
+    requireindex "~1.1.0"
+
 eslint-plugin-node@11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-11.1.0.tgz#c95544416ee4ada26740a30474eefc5402dc671d"
