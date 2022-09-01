@@ -2,6 +2,19 @@
     asktris
 </h1>
 
+<p align="center">
+   <a href="https://github.com/biantris/asktris/actions">
+      <img alt="Tests Passing" src="https://github.com/biantris/asktris/actions/workflows/test.yml/badge.svg" />
+    </a>
+    <a href="https://github.com/biantris/asktris/actions">
+      <img alt="Lint" src="https://github.com/biantris/asktris/actions/workflows/lint.yml/badge.svg" />
+    </a>
+    <a href="https://twitter.com/intent/follow?screen_name=biantris_">
+        <img src="https://img.shields.io/twitter/follow/biantris_?style=social&logo=twitter"
+        alt="follow on Twitter">
+    </a>
+</p>
+
 > FullStack Playgorund and Challenge at AskLisa
 
 ### to-do
@@ -18,7 +31,7 @@
 - [x] Pre-commit
 - [x] Lerna + Yan Workspace
 - [ ] Dockerfile
-- [ ] CI w/ Github Actions
+- [x] CI/CD w/ Github Actions
 
 #### ➜ Server
 
