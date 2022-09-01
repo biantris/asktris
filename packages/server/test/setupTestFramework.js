@@ -6,6 +6,3 @@ require('@babel/polyfill');
 // https://jestjs.io/docs/en/es6-class-mocks#simple-mock-using-module-factory-parameter
 
 require('jest-fetch-mock').enableMocks();
-
-process.env.FEEDBACK_ENV = 'testing';
-process.env.TZ = 'GMT';
