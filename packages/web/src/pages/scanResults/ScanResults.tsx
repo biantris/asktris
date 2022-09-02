@@ -15,7 +15,7 @@ import { Container, ContentContainer, LabelContent, HeaderContent } from './styl
 
 const colors: any = {
   Queued: 'grey',
-  InProgress: 'teal',
+  'In Progress': 'orange',
   Success: 'green',
   Failure: 'red',
 };
