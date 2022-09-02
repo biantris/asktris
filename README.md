@@ -76,6 +76,7 @@
 
 #### Server
 - go to the server path `../packages/server`
+- or `yarn server`
 
 ```sh
 # install dependencies
@@ -102,7 +103,7 @@ http://localhost:9000/api/version
 > yarn install
 
 # copy .env file
-> cp .env.example .env
+> cp .env.local .env
 
 # start project
 > yarn dev
@@ -110,7 +111,7 @@ http://localhost:9000/api/version
 
 #### APIs
 - [x] resultGet
-- [ ] resultGetAll
+- [x] resultGetAll
 - [x] resultPost
 - [ ] resultUpdate
 - [ ] resultDelete
