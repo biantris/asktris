@@ -15,7 +15,7 @@ import { Container, ContentContainer, LabelContent, HeaderContent } from './styl
 
 const colors: any = {
   Queued: 'grey',
-  'In Progress': 'teal',
+  'In Progress': 'orange',
   Success: 'green',
   Failure: 'red',
 };
@@ -40,11 +40,9 @@ const ScanResults = () => {
   const fetchAllResults = async () => {
     try {
       const {
-        data: { success, data },
+        data: { results },
       } = await getAllResults();
-      if (success) {
-        setResults(data);
-      }
+      setResults(results);
     } catch (error: any) {
       console.error(error);
       setErrors(error.response ? error.response.data?.message : 'Internal Server Error');
