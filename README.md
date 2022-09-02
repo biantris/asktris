@@ -109,6 +109,8 @@ http://localhost:9000/api/version
 # start project
 > yarn dev
 ```
+### Run w/ Docker
+🚧 wip 🚧
 
 #### APIs
 - [x] resultGet
