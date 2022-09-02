@@ -95,6 +95,7 @@ http://localhost:9000/api/version
 ```
 #### Web
 - go to the web path `../packages/web`
+- or `yarn web`
 
 ```sh
 # install dependencies
