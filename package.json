@@ -9,7 +9,7 @@
     "@babel/cli": "7.14.3",
     "@babel/core": "7.14.0",
     "@babel/node": "7.14.9",
-    "@babel/plugin-proposal-class-properties": "7.13.0",
+    "@babel/plugin-proposal-class-properties": "7.18.6",
     "@babel/plugin-proposal-export-default-from": "7.12.13",
     "@babel/plugin-proposal-export-namespace-from": "7.12.13",
     "@babel/plugin-transform-flow-strip-types": "7.16.7",
@@ -21,7 +21,7 @@
     "@babel/register": "7.14.5",
     "@types/babel__core": "7.1.18",
     "@types/babel__generator": "7.6.2",
-    "@types/babel__template": "7.4.0",
+    "@types/babel__template": "7.4.1",
     "@types/babel__traverse": "7.11.1",
     "@types/bcryptjs": "^2.4.1",
     "@types/dotenv-safe": "^8.1.1",
@@ -71,7 +71,7 @@
     "nodemon": "1.18.9",
     "pre-commit": "^1.2.2",
     "prettier": "2.3.1",
-    "typescript": "4.2.4"
+    "typescript": "4.8.2"
   },
   "pre-commit": "lint:staged",
   "lint-staged": {
