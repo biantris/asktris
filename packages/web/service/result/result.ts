@@ -1,16 +1,8 @@
 import service from '../api';
 
-export const getAllResults = () =>
-  service({
-    method: 'GET',
-    url: `api/result`,
-  });
+export const getAllResults = () => service.get(`api/result`);
 
-export const getResult = (id: string | undefined) =>
-  service({
-    method: 'GET',
-    url: `api/result/${id}`,
-  });
+export const getResult = (id: string | undefined) => service.get(`api/result/${id}`);
 
 export const createResult = (body: any) =>
   service({
@@ -26,8 +18,4 @@ export const updateResult = (id: string, body: any) =>
     data: JSON.stringify(body),
   });
 
-export const deleteResult = (id: string) =>
-  service({
-    method: 'DELETE',
-    url: `api/result/${id}`,
-  });
+export const deleteResult = (id: string) => service.delete(`api/result/${id}`);
