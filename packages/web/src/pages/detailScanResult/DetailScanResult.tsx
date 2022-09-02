@@ -11,7 +11,7 @@ import { NavigationMenu } from '../../components/index';
 
 import { formatDateAndTime } from '../../utils/formatDate';
 
-import { Container, Content, ContentContainer, Title } from './styles';
+import { Container, Content, ContentContainer, Title, HeaderContent } from './styles';
 
 const DetailScanResult = () => {
   const { id } = useParams();
@@ -33,13 +33,10 @@ const DetailScanResult = () => {
   const fetchResult = async () => {
     try {
       const {
-        data: { success, data },
+        data: { result },
       } = await getResult(id);
-      if (success) {
-        console.log({ data });
-        setResult(data);
-        setActiveItem(data.repositoryName);
-      }
+      setResult(result);
+      setActiveItem(result.repositoryName);
     } catch (error) {
       console.error(error);
     }
@@ -49,7 +46,14 @@ const DetailScanResult = () => {
     fetchResult();
   }, []);
 
-  if (!result) return <div>loading...</div>;
+  if (!result)
+    return (
+      <HeaderContent>
+        <Header as='h1' color='teal'>
+          loading...
+        </Header>
+      </HeaderContent>
+    );
 
   return (
     <Container>
