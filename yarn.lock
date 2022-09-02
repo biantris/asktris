@@ -354,18 +354,6 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/node@7.14.9":
-  version "7.14.9"
-  resolved "https://registry.yarnpkg.com/@babel/node/-/node-7.14.9.tgz#c15b1c8ecb33c079cb7666c8b4861791150c7aa1"
-  integrity sha512-7QJvGn3ID2TjoFst3UdLu3LOxn/Q6Nhr/mo0MENstbPHehl/0wnod2gmVDB+zDxRL6pFFS7z0WeBK3b94k4CLg==
-  dependencies:
-    "@babel/register" "^7.14.5"
-    commander "^4.0.1"
-    core-js "^3.16.0"
-    node-environment-flags "^1.0.5"
-    regenerator-runtime "^0.13.4"
-    v8flags "^3.1.1"
-
 "@babel/node@7.18.10":
   version "7.18.10"
   resolved "https://registry.yarnpkg.com/@babel/node/-/node-7.18.10.tgz#ab2be57785346b5bf0721c3d17572402419d9d8a"
@@ -1173,7 +1161,7 @@
     pirates "^4.0.0"
     source-map-support "^0.5.16"
 
-"@babel/register@^7.14.5", "@babel/register@^7.18.9":
+"@babel/register@^7.18.9":
   version "7.18.9"
   resolved "https://registry.yarnpkg.com/@babel/register/-/register-7.18.9.tgz#1888b24bc28d5cc41c412feb015e9ff6b96e439c"
   integrity sha512-ZlbnXDcNYHMR25ITwwNKT88JiaukkdVj/nG7r3wnuXkOTHc60Uy05PwMCPre0hSkY68E6zK3xz+vUJSP2jWmcw==
@@ -5660,7 +5648,7 @@ core-js@^2.4.0, core-js@^2.5.0, core-js@^2.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
-core-js@^3.16.0, core-js@^3.22.1:
+core-js@^3.22.1:
   version "3.25.0"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.25.0.tgz#be71d9e0dd648ffd70c44a7ec2319d039357eceb"
   integrity sha512-CVU1xvJEfJGhyCpBrzzzU1kjCfgsGUxhEvwUV2e/cOedYWHdmluamx+knDnmhqALddMG16fZvIqvs9aijsHHaA==
