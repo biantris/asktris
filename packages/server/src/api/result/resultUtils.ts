@@ -40,7 +40,7 @@ export const validateResultApi = async (apiResult: ApiResult) => {
 const resultUpdateSchema = yup.object().shape({
   repositoryName: yup.string().required(),
   status: yup.string().required(),
-  findings: yup.string().required(),
+  findings: yup.array().required(),
 });
 
 export const validateResultUpdateApi = async (apiResult: ApiResult) => {
