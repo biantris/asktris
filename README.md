@@ -108,6 +108,9 @@ http://localhost:9000/api/version
 
 # start project
 > yarn dev
+
+# open in
+http://localhost:8080
 ```
 ### Run w/ Docker
 🚧 wip 🚧
