@@ -3,13 +3,15 @@ import React, { SyntheticEvent, useEffect, useState } from 'react';
 
 import { useNavigate, useParams } from 'react-router-dom';
 
-import { Grid, Header, List, Table } from 'semantic-ui-react';
+import { Header, List, Table } from 'semantic-ui-react';
 
 import { getResult } from '../../../service/result/result';
 
 import { NavigationMenu } from '../../components/index';
 
 import { formatDateAndTime } from '../../utils/formatDate';
+
+import { Container, Content, ContentContainer, Title } from './styles';
 
 const DetailScanResult = () => {
   const { id } = useParams();
@@ -50,11 +52,11 @@ const DetailScanResult = () => {
   if (!result) return <div>loading...</div>;
 
   return (
-    <div className={'container'}>
+    <Container>
       <NavigationMenu activeItem={activeItem} handleItemClick={handleItemClick} />
-      <div className={'contentContainer'}>
-        <Grid className={'content'}>
-          <div className={'title'}>
+      <ContentContainer>
+        <Content>
+          <Title>
             <Header as='h2' color='teal'>
               {result.repositoryName}
             </Header>
@@ -72,7 +74,7 @@ const DetailScanResult = () => {
                 }
               />
             </List>
-          </div>
+          </Title>
           <Table>
             <Table.Header>
               <Table.Row>
@@ -97,9 +99,9 @@ const DetailScanResult = () => {
               ))}
             </Table.Body>
           </Table>
-        </Grid>
-      </div>
-    </div>
+        </Content>
+      </ContentContainer>
+    </Container>
   );
 };
 

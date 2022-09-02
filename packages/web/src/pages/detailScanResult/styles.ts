@@ -1,26 +1,28 @@
-.container {
+import styled from 'styled-components';
+
+export const Container = styled.div`
   width: 100%;
   height: 100vh;
   min-height: 100vh;
   background-color: #153d50;
   overflow-y: auto;
-}
+`;
 
-.contentContainer {
+export const ContentContainer = styled.div`
   padding: 5rem;
   padding-top: 6rem;
   padding-bottom: 1rem;
   height: 100%;
-}
+`;
 
-.content {
+export const Content = styled.div`
   background-color: white;
   border-radius: 5px;
   padding: 5px;
   padding-bottom: 2rem !important;
-}
+`;
 
-.title {
+export const Title = styled.div`
   width: 100%;
-  padding: 1.5rem !important;
-}
+  padding: 1.5rem;
+`;
