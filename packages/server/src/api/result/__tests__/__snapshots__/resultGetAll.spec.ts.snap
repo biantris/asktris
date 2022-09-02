@@ -1,0 +1,2731 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should paginate skipping 90 results and limit 10 1`] = `
+Object {
+  "pageInfo": Object {
+    "hasNextPage": true,
+    "hasPreviousPage": true,
+    "limit": 10,
+    "skip": 90,
+    "totalCount": 110,
+  },
+  "results": Array [
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors91/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 91,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 91",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 91",
+          "type": "sast 91",
+        },
+      ],
+      "repositoryName": "Result Name 91",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors92/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 92,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 92",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 92",
+          "type": "sast 92",
+        },
+      ],
+      "repositoryName": "Result Name 92",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors93/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 93,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 93",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 93",
+          "type": "sast 93",
+        },
+      ],
+      "repositoryName": "Result Name 93",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors94/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 94,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 94",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 94",
+          "type": "sast 94",
+        },
+      ],
+      "repositoryName": "Result Name 94",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors95/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 95,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 95",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 95",
+          "type": "sast 95",
+        },
+      ],
+      "repositoryName": "Result Name 95",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors96/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 96,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 96",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 96",
+          "type": "sast 96",
+        },
+      ],
+      "repositoryName": "Result Name 96",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors97/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 97,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 97",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 97",
+          "type": "sast 97",
+        },
+      ],
+      "repositoryName": "Result Name 97",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors98/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 98,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 98",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 98",
+          "type": "sast 98",
+        },
+      ],
+      "repositoryName": "Result Name 98",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors99/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 99,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 99",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 99",
+          "type": "sast 99",
+        },
+      ],
+      "repositoryName": "Result Name 99",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors100/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 100,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 100",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 100",
+          "type": "sast 100",
+        },
+      ],
+      "repositoryName": "Result Name 100",
+      "status": "Queued",
+    },
+  ],
+}
+`;
+
+exports[`should return 100 results if no skip limit is not specific 1`] = `
+Object {
+  "pageInfo": Object {
+    "hasNextPage": true,
+    "hasPreviousPage": false,
+    "limit": 100,
+    "skip": 0,
+    "totalCount": 110,
+  },
+  "results": Array [
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors1/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 1,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 1",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 1",
+          "type": "sast 1",
+        },
+      ],
+      "repositoryName": "Result Name 1",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors2/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 2,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 2",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 2",
+          "type": "sast 2",
+        },
+      ],
+      "repositoryName": "Result Name 2",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors3/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 3,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 3",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 3",
+          "type": "sast 3",
+        },
+      ],
+      "repositoryName": "Result Name 3",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors4/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 4,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 4",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 4",
+          "type": "sast 4",
+        },
+      ],
+      "repositoryName": "Result Name 4",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors5/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 5,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 5",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 5",
+          "type": "sast 5",
+        },
+      ],
+      "repositoryName": "Result Name 5",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors6/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 6,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 6",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 6",
+          "type": "sast 6",
+        },
+      ],
+      "repositoryName": "Result Name 6",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors7/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 7,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 7",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 7",
+          "type": "sast 7",
+        },
+      ],
+      "repositoryName": "Result Name 7",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors8/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 8,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 8",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 8",
+          "type": "sast 8",
+        },
+      ],
+      "repositoryName": "Result Name 8",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors9/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 9,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 9",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 9",
+          "type": "sast 9",
+        },
+      ],
+      "repositoryName": "Result Name 9",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors10/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 10,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 10",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 10",
+          "type": "sast 10",
+        },
+      ],
+      "repositoryName": "Result Name 10",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors11/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 11,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 11",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 11",
+          "type": "sast 11",
+        },
+      ],
+      "repositoryName": "Result Name 11",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors12/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 12,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 12",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 12",
+          "type": "sast 12",
+        },
+      ],
+      "repositoryName": "Result Name 12",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors13/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 13,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 13",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 13",
+          "type": "sast 13",
+        },
+      ],
+      "repositoryName": "Result Name 13",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors14/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 14,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 14",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 14",
+          "type": "sast 14",
+        },
+      ],
+      "repositoryName": "Result Name 14",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors15/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 15,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 15",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 15",
+          "type": "sast 15",
+        },
+      ],
+      "repositoryName": "Result Name 15",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors16/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 16,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 16",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 16",
+          "type": "sast 16",
+        },
+      ],
+      "repositoryName": "Result Name 16",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors17/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 17,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 17",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 17",
+          "type": "sast 17",
+        },
+      ],
+      "repositoryName": "Result Name 17",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors18/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 18,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 18",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 18",
+          "type": "sast 18",
+        },
+      ],
+      "repositoryName": "Result Name 18",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors19/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 19,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 19",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 19",
+          "type": "sast 19",
+        },
+      ],
+      "repositoryName": "Result Name 19",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors20/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 20,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 20",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 20",
+          "type": "sast 20",
+        },
+      ],
+      "repositoryName": "Result Name 20",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors21/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 21,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 21",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 21",
+          "type": "sast 21",
+        },
+      ],
+      "repositoryName": "Result Name 21",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors22/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 22,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 22",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 22",
+          "type": "sast 22",
+        },
+      ],
+      "repositoryName": "Result Name 22",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors23/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 23,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 23",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 23",
+          "type": "sast 23",
+        },
+      ],
+      "repositoryName": "Result Name 23",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors24/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 24,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 24",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 24",
+          "type": "sast 24",
+        },
+      ],
+      "repositoryName": "Result Name 24",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors25/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 25,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 25",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 25",
+          "type": "sast 25",
+        },
+      ],
+      "repositoryName": "Result Name 25",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors26/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 26,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 26",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 26",
+          "type": "sast 26",
+        },
+      ],
+      "repositoryName": "Result Name 26",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors27/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 27,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 27",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 27",
+          "type": "sast 27",
+        },
+      ],
+      "repositoryName": "Result Name 27",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors28/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 28,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 28",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 28",
+          "type": "sast 28",
+        },
+      ],
+      "repositoryName": "Result Name 28",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors29/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 29,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 29",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 29",
+          "type": "sast 29",
+        },
+      ],
+      "repositoryName": "Result Name 29",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors30/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 30,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 30",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 30",
+          "type": "sast 30",
+        },
+      ],
+      "repositoryName": "Result Name 30",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors31/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 31,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 31",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 31",
+          "type": "sast 31",
+        },
+      ],
+      "repositoryName": "Result Name 31",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors32/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 32,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 32",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 32",
+          "type": "sast 32",
+        },
+      ],
+      "repositoryName": "Result Name 32",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors33/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 33,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 33",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 33",
+          "type": "sast 33",
+        },
+      ],
+      "repositoryName": "Result Name 33",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors34/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 34,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 34",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 34",
+          "type": "sast 34",
+        },
+      ],
+      "repositoryName": "Result Name 34",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors35/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 35,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 35",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 35",
+          "type": "sast 35",
+        },
+      ],
+      "repositoryName": "Result Name 35",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors36/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 36,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 36",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 36",
+          "type": "sast 36",
+        },
+      ],
+      "repositoryName": "Result Name 36",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors37/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 37,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 37",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 37",
+          "type": "sast 37",
+        },
+      ],
+      "repositoryName": "Result Name 37",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors38/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 38,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 38",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 38",
+          "type": "sast 38",
+        },
+      ],
+      "repositoryName": "Result Name 38",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors39/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 39,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 39",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 39",
+          "type": "sast 39",
+        },
+      ],
+      "repositoryName": "Result Name 39",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors40/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 40,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 40",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 40",
+          "type": "sast 40",
+        },
+      ],
+      "repositoryName": "Result Name 40",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors41/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 41,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 41",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 41",
+          "type": "sast 41",
+        },
+      ],
+      "repositoryName": "Result Name 41",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors42/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 42,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 42",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 42",
+          "type": "sast 42",
+        },
+      ],
+      "repositoryName": "Result Name 42",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors43/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 43,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 43",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 43",
+          "type": "sast 43",
+        },
+      ],
+      "repositoryName": "Result Name 43",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors44/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 44,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 44",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 44",
+          "type": "sast 44",
+        },
+      ],
+      "repositoryName": "Result Name 44",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors45/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 45,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 45",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 45",
+          "type": "sast 45",
+        },
+      ],
+      "repositoryName": "Result Name 45",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors46/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 46,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 46",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 46",
+          "type": "sast 46",
+        },
+      ],
+      "repositoryName": "Result Name 46",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors47/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 47,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 47",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 47",
+          "type": "sast 47",
+        },
+      ],
+      "repositoryName": "Result Name 47",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors48/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 48,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 48",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 48",
+          "type": "sast 48",
+        },
+      ],
+      "repositoryName": "Result Name 48",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors49/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 49,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 49",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 49",
+          "type": "sast 49",
+        },
+      ],
+      "repositoryName": "Result Name 49",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors50/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 50,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 50",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 50",
+          "type": "sast 50",
+        },
+      ],
+      "repositoryName": "Result Name 50",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors51/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 51,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 51",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 51",
+          "type": "sast 51",
+        },
+      ],
+      "repositoryName": "Result Name 51",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors52/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 52,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 52",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 52",
+          "type": "sast 52",
+        },
+      ],
+      "repositoryName": "Result Name 52",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors53/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 53,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 53",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 53",
+          "type": "sast 53",
+        },
+      ],
+      "repositoryName": "Result Name 53",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors54/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 54,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 54",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 54",
+          "type": "sast 54",
+        },
+      ],
+      "repositoryName": "Result Name 54",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors55/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 55,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 55",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 55",
+          "type": "sast 55",
+        },
+      ],
+      "repositoryName": "Result Name 55",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors56/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 56,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 56",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 56",
+          "type": "sast 56",
+        },
+      ],
+      "repositoryName": "Result Name 56",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors57/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 57,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 57",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 57",
+          "type": "sast 57",
+        },
+      ],
+      "repositoryName": "Result Name 57",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors58/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 58,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 58",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 58",
+          "type": "sast 58",
+        },
+      ],
+      "repositoryName": "Result Name 58",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors59/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 59,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 59",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 59",
+          "type": "sast 59",
+        },
+      ],
+      "repositoryName": "Result Name 59",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors60/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 60,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 60",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 60",
+          "type": "sast 60",
+        },
+      ],
+      "repositoryName": "Result Name 60",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors61/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 61,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 61",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 61",
+          "type": "sast 61",
+        },
+      ],
+      "repositoryName": "Result Name 61",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors62/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 62,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 62",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 62",
+          "type": "sast 62",
+        },
+      ],
+      "repositoryName": "Result Name 62",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors63/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 63,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 63",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 63",
+          "type": "sast 63",
+        },
+      ],
+      "repositoryName": "Result Name 63",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors64/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 64,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 64",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 64",
+          "type": "sast 64",
+        },
+      ],
+      "repositoryName": "Result Name 64",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors65/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 65,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 65",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 65",
+          "type": "sast 65",
+        },
+      ],
+      "repositoryName": "Result Name 65",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors66/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 66,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 66",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 66",
+          "type": "sast 66",
+        },
+      ],
+      "repositoryName": "Result Name 66",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors67/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 67,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 67",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 67",
+          "type": "sast 67",
+        },
+      ],
+      "repositoryName": "Result Name 67",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors68/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 68,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 68",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 68",
+          "type": "sast 68",
+        },
+      ],
+      "repositoryName": "Result Name 68",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors69/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 69,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 69",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 69",
+          "type": "sast 69",
+        },
+      ],
+      "repositoryName": "Result Name 69",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors70/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 70,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 70",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 70",
+          "type": "sast 70",
+        },
+      ],
+      "repositoryName": "Result Name 70",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors71/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 71,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 71",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 71",
+          "type": "sast 71",
+        },
+      ],
+      "repositoryName": "Result Name 71",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors72/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 72,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 72",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 72",
+          "type": "sast 72",
+        },
+      ],
+      "repositoryName": "Result Name 72",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors73/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 73,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 73",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 73",
+          "type": "sast 73",
+        },
+      ],
+      "repositoryName": "Result Name 73",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors74/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 74,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 74",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 74",
+          "type": "sast 74",
+        },
+      ],
+      "repositoryName": "Result Name 74",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors75/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 75,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 75",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 75",
+          "type": "sast 75",
+        },
+      ],
+      "repositoryName": "Result Name 75",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors76/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 76,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 76",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 76",
+          "type": "sast 76",
+        },
+      ],
+      "repositoryName": "Result Name 76",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors77/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 77,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 77",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 77",
+          "type": "sast 77",
+        },
+      ],
+      "repositoryName": "Result Name 77",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors78/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 78,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 78",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 78",
+          "type": "sast 78",
+        },
+      ],
+      "repositoryName": "Result Name 78",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors79/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 79,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 79",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 79",
+          "type": "sast 79",
+        },
+      ],
+      "repositoryName": "Result Name 79",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors80/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 80,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 80",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 80",
+          "type": "sast 80",
+        },
+      ],
+      "repositoryName": "Result Name 80",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors81/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 81,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 81",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 81",
+          "type": "sast 81",
+        },
+      ],
+      "repositoryName": "Result Name 81",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors82/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 82,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 82",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 82",
+          "type": "sast 82",
+        },
+      ],
+      "repositoryName": "Result Name 82",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors83/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 83,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 83",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 83",
+          "type": "sast 83",
+        },
+      ],
+      "repositoryName": "Result Name 83",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors84/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 84,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 84",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 84",
+          "type": "sast 84",
+        },
+      ],
+      "repositoryName": "Result Name 84",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors85/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 85,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 85",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 85",
+          "type": "sast 85",
+        },
+      ],
+      "repositoryName": "Result Name 85",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors86/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 86,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 86",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 86",
+          "type": "sast 86",
+        },
+      ],
+      "repositoryName": "Result Name 86",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors87/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 87,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 87",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 87",
+          "type": "sast 87",
+        },
+      ],
+      "repositoryName": "Result Name 87",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors88/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 88,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 88",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 88",
+          "type": "sast 88",
+        },
+      ],
+      "repositoryName": "Result Name 88",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors89/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 89,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 89",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 89",
+          "type": "sast 89",
+        },
+      ],
+      "repositoryName": "Result Name 89",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors90/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 90,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 90",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 90",
+          "type": "sast 90",
+        },
+      ],
+      "repositoryName": "Result Name 90",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors91/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 91,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 91",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 91",
+          "type": "sast 91",
+        },
+      ],
+      "repositoryName": "Result Name 91",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors92/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 92,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 92",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 92",
+          "type": "sast 92",
+        },
+      ],
+      "repositoryName": "Result Name 92",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors93/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 93,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 93",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 93",
+          "type": "sast 93",
+        },
+      ],
+      "repositoryName": "Result Name 93",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors94/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 94,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 94",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 94",
+          "type": "sast 94",
+        },
+      ],
+      "repositoryName": "Result Name 94",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors95/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 95,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 95",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 95",
+          "type": "sast 95",
+        },
+      ],
+      "repositoryName": "Result Name 95",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors96/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 96,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 96",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 96",
+          "type": "sast 96",
+        },
+      ],
+      "repositoryName": "Result Name 96",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors97/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 97,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 97",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 97",
+          "type": "sast 97",
+        },
+      ],
+      "repositoryName": "Result Name 97",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors98/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 98,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 98",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 98",
+          "type": "sast 98",
+        },
+      ],
+      "repositoryName": "Result Name 98",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors99/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 99,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 99",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 99",
+          "type": "sast 99",
+        },
+      ],
+      "repositoryName": "Result Name 99",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors100/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 100,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 100",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 100",
+          "type": "sast 100",
+        },
+      ],
+      "repositoryName": "Result Name 100",
+      "status": "Queued",
+    },
+  ],
+}
+`;
+
+exports[`should return a list of results 1`] = `
+Object {
+  "pageInfo": Object {
+    "hasNextPage": false,
+    "hasPreviousPage": false,
+    "limit": 100,
+    "skip": 0,
+    "totalCount": 2,
+  },
+  "results": Array [
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors1/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 1,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 1",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 1",
+          "type": "sast 1",
+        },
+      ],
+      "repositoryName": "Result Name 1",
+      "status": "Queued",
+    },
+    Object {
+      "_id": "ObjectId",
+      "findings": Array [
+        Object {
+          "_id": "ObjectId",
+          "location": Object {
+            "path": "connectors2/apigateway.go",
+            "positions": Object {
+              "begin": Object {
+                "line": 2,
+              },
+            },
+          },
+          "metadata": Object {
+            "description": "TLS InsecureSkipVerify set true. 2",
+            "severity": "HIGH",
+          },
+          "ruleId": "G402 2",
+          "type": "sast 2",
+        },
+      ],
+      "repositoryName": "Result Name 2",
+      "status": "Queued",
+    },
+  ],
+}
+`;
