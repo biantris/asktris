@@ -1,6 +1,6 @@
 import React, { memo, SyntheticEvent } from 'react';
 
-import Menu from 'semantic-ui-react';
+import { Menu } from 'semantic-ui-react';
 
 interface NavigationMenuProps {
   handleItemClick: (e: SyntheticEvent, data: any) => void;
