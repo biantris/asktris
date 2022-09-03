@@ -119,7 +119,7 @@ http://localhost:8080
 - [x] resultGet
 - [x] resultGetAll
 - [x] resultPost
-- [ ] resultUpdate
+- [x] resultUpdate
 - [ ] resultDelete
 
 ### GraphQL
