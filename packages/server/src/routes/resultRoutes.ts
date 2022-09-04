@@ -1,7 +1,7 @@
 import Router from 'koa-router';
 
 import { resultUpdate } from '../api/result/resultUpdate';
-// import { resultDelete } from '../../api/result/resultDelete';
+import { resultDelete } from '../api/result/resultDelete';
 import { resultGet } from '../api/result/resultGet';
 import { resultGetAll } from '../api/result/resultGelAll';
 
@@ -14,6 +14,6 @@ const routerResult = new Router({
 routerResult.get('/', resultGetAll);
 routerResult.get('/:id', resultGet);
 routerResult.put('/', resultMiddleware, resultUpdate);
-// routerResult.delete('/:id', resultDelete);
+routerResult.delete('/', resultMiddleware, resultDelete);
 
 export default routerResult;
