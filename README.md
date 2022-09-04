@@ -120,7 +120,7 @@ http://localhost:8080
 - [x] resultGetAll
 - [x] resultPost
 - [x] resultUpdate
-- [ ] resultDelete
+- [x] resultDelete
 
 ### GraphQL
 🚧 wip 🚧
