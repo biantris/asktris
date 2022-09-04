@@ -22,7 +22,11 @@ const Home = () => {
           asktris crud
         </Header>
         <Header as='h2' color='grey'>
-          Fullstack Playground and <a href='https://www.asklisa.com.br/'>asklisa</a> challenge
+          Fullstack Playground and{' '}
+          <a href='https://www.asklisa.com.br/' target='_blank' rel='noreferrer'>
+            asklisa
+          </a>{' '}
+          challenge
         </Header>
         <Button onClick={() => navigate('/results')} size='large' style={{ marginTop: '20px' }}>
           Get Started
