@@ -8,7 +8,7 @@ import React from 'react';
 
 import NewScanResult from '../NewScanResult';
 
-it('should render PageNotFound page', async () => {
+it('should render NewScanResult page', async () => {
   // eslint-disable-next-line
   const { debug, getByText } = render(
     <Router>
