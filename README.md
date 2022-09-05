@@ -51,7 +51,7 @@
 - [x] ReactTS
 - [x] Axios
 - [x] Semantic UI
-- [ ] Jest + Testing Library
+- [x] Jest + Testing Library
 - [x] Storybook
 - [x] Linter (Eslint)
 - [x] Prettier
