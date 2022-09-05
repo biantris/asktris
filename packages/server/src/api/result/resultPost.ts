@@ -5,7 +5,7 @@ import { getResultApi } from './resultGet';
 import { validateResultApi } from './resultUtils';
 
 export const resultPost = async ctx => {
-  const { result = null } = ctx.request.body;
+  const { result } = ctx.request.body;
 
   if (!result) {
     ctx.status = 400;
@@ -52,7 +52,9 @@ export const resultPost = async ctx => {
 
     ctx.status = 200;
     ctx.body = {
+      success: true,
       result: resultNormalized,
+      message: 'Result created successfully',
     };
 
     return;
