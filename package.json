@@ -100,6 +100,7 @@
     "build:types": "yarn workspace @asktris/types build",
     "build:test": "yarn workspace @asktris/test build",
     "web": "yarn workspace @asktris/web dev",
+    "storybook": "yarn workspace @asktris/web storybook",
     "jest": "jest",
     "jest:server": "yarn workspace @asktris/server jest",
     "lint": "eslint .",
