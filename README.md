@@ -49,7 +49,7 @@
 - [x] Axios
 - [x] Semantic UI
 - [ ] Jest + Testing Library
-- [ ] Storybook
+- [x] Storybook
 - [x] Linter (Eslint)
 - [x] Prettier
 - [x] Vite
