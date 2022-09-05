@@ -117,18 +117,21 @@ class NewScanResult extends Component {
         },
       }));
       const body = {
-        status,
-        repositoryName,
-        findings,
-        ...(status === 'Queued' && { queuedAt: new Date() }),
-        ...(status === 'In Progress' && { scannedAt: new Date() }),
-        ...(status === 'Success' && { finishedAt: new Date() }),
-        ...(status === 'Failed' && { finishedAt: new Date() }),
+        result: {
+          status,
+          repositoryName,
+          findings,
+          ...(status === 'Queued' && { queuedAt: new Date() }),
+          ...(status === 'In Progress' && { scannedAt: new Date() }),
+          ...(status === 'Success' && { finishedAt: new Date() }),
+          ...(status === 'Failed' && { finishedAt: new Date() }),
+        },
       };
       console.log({ body });
       const {
         data: { success },
       } = await createResult(body);
+
       if (success) {
         this.setState(prev => ({
           ...prev,
