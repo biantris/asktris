@@ -2,10 +2,10 @@ import React, { memo, SyntheticEvent } from 'react';
 
 import { Menu } from 'semantic-ui-react';
 
-interface NavigationMenuProps {
+export type NavigationMenuProps = {
   handleItemClick: (e: SyntheticEvent, data: any) => void;
   activeItem: string;
-}
+};
 
 const NavigationMenu = ({ handleItemClick, activeItem }: NavigationMenuProps) => {
   return (
