@@ -6,6 +6,9 @@
    <a href="https://github.com/biantris/asktris/actions">
       <img alt="Tests server Passing" src="https://github.com/biantris/asktris/actions/workflows/test-server.yml/badge.svg" />
     </a>
+    <a href="https://github.com/biantris/asktris/actions">
+      <img alt="Tests web Passing" src="https://github.com/biantris/asktris/actions/workflows/test-web.yml/badge.svg" />
+    </a>
     <a href="https://twitter.com/intent/follow?screen_name=biantris_">
         <img src="https://img.shields.io/twitter/follow/biantris_?style=social&logo=twitter"
         alt="follow on Twitter">
