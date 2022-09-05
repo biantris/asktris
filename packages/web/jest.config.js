@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-const pkg = require('./package.json');
+const pkg = require('./package');
 
 module.exports = {
   displayName: pkg.name,
@@ -20,7 +20,7 @@ module.exports = {
     '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
       '<rootDir>/__mocks__/fileMock.js',
   },
-  setupFilesAfterEnv: ['<rootDir>/test/jest.setup.js'],
-  setupFiles: ['<rootDir>/test/polyfill.js'],
+  // setupFilesAfterEnv: ['<rootDir>/test/jest.setup.js'],
+  // setupFiles: ['<rootDir>/test/polyfill.js'],
   rootDir: './',
 };

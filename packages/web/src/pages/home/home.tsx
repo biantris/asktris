@@ -28,7 +28,7 @@ const Home = () => {
           </a>{' '}
           challenge
         </Header>
-        <Button onClick={() => navigate('/results')} size='large' style={{ marginTop: '20px' }}>
+        <Button onClick={() => navigate('/results', { replace: true })} size='large' style={{ marginTop: '20px' }}>
           Get Started
           <Icon name='arrow right' />
         </Button>
