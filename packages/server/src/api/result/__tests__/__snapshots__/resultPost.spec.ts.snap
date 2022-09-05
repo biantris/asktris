@@ -2,6 +2,7 @@
 
 exports[`should create result with success 1`] = `
 Object {
+  "message": "Result created successfully",
   "result": Object {
     "_id": "ObjectId",
     "findings": Array [
@@ -26,6 +27,7 @@ Object {
     "repositoryName": "Result Name",
     "status": "Queued",
   },
+  "success": true,
 }
 `;
 
