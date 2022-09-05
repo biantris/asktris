@@ -103,6 +103,7 @@
     "storybook": "yarn workspace @asktris/web storybook",
     "jest": "jest",
     "jest:server": "yarn workspace @asktris/server jest",
+    "jest:web": "yarn workspace @asktris/web jest",
     "lint": "eslint .",
     "lint:staged": "lint-staged",
     "prettier": "prettier --write --single-quote true --trailing-comma all --print-width 120",
