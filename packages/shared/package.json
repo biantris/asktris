@@ -5,7 +5,7 @@
     "dotenv-safe": "^6.1.0",
     "graphql": "15.5.1",
     "mongoose": "5.13.5",
-    "pretty-format": "29.0.1"
+    "pretty-format": "29.0.2"
   },
   "main": "dist/index.js",
   "module": "src/index.ts",
