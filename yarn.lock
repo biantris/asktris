@@ -14428,9 +14428,9 @@ moment@^2.29.4:
   integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 mongodb-client-encryption@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/mongodb-client-encryption/-/mongodb-client-encryption-2.2.0.tgz#549b2f56b1ac8d72198dc050c7432fa4ec6fe770"
-  integrity sha512-rkUXUhFF3gwRK6gMQxtK1HZqPcibvtMolJ7n8BgBsZIamnw85L8FYa+gzx+egbSgelVlJUga67slFDaEWGz7Ig==
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/mongodb-client-encryption/-/mongodb-client-encryption-2.2.1.tgz#875695301f3ec67b53f67f7f9ebf325e15eedfb0"
+  integrity sha512-YqgWDl1B5ncdS3Zj/rMqS4Ioymo3vMjpPe8+AlMfM+XPriGczMOGVctktYDj+cEuV93UfWHgBdsOFEG9JJGD8w==
   dependencies:
     bindings "^1.5.0"
     node-addon-api "^4.3.0"
