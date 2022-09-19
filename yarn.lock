@@ -4343,10 +4343,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa__router@^8.0.4":
-  version "8.0.11"
-  resolved "https://registry.yarnpkg.com/@types/koa__router/-/koa__router-8.0.11.tgz#d7b37e6db934fc072ea1baa2ab92bc8ac4564f3e"
-  integrity sha512-WXgKWpBsbS14kzmzD9LeFapOIa678h7zvUHxDwXwSx4ETKXhXLVUAToX6jZ/U7EihM7qwyD9W/BZvB0MRu7MTQ==
+"@types/koa__router@^12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@types/koa__router/-/koa__router-12.0.0.tgz#19b0f287f9708267dfd8842feb5f2de407d93af2"
+  integrity sha512-S6eHyZyoWCZLNHyy8j0sMW85cPrpByCbGGU2/BO4IzGiI87aHJ92lZh4E9xfsM9DcbCT469/OIqyC0sSJXSIBQ==
   dependencies:
     "@types/koa" "*"
 
@@ -12092,7 +12092,7 @@ jest-haste-map@^26.6.2:
   optionalDependencies:
     fsevents "^2.1.2"
 
-jest-haste-map@^29.0.2:
+jest-haste-map@^29.0.2, jest-haste-map@^29.0.3:
   version "29.0.3"
   resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-29.0.3.tgz#d7f3f7180f558d760eacc5184aac5a67f20ef939"
   integrity sha512-uMqR99+GuBHo0RjRhOE4iA6LmsxEwRdgiIAQgMU/wdT2XebsLDz5obIwLZm/Psj+GwSEQhw9AfAVKGYbh2G55A==
@@ -12405,16 +12405,16 @@ jest-resolve@^26.6.2:
     slash "^3.0.0"
 
 jest-resolve@^29.0.2:
-  version "29.0.2"
-  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-29.0.2.tgz#dd097e1c8020fbed4a8c1e1889ccb56022288697"
-  integrity sha512-V3uLjSA+EHxLtjIDKTBXnY71hyx+8lusCqPXvqzkFO1uCGvVpjBfuOyp+KOLBNSuY61kM2jhepiMwt4eiJS+Vw==
+  version "29.0.3"
+  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-29.0.3.tgz#329a3431e3b9eb6629a2cd483e9bed95b26827b9"
+  integrity sha512-toVkia85Y/BPAjJasTC9zIPY6MmVXQPtrCk8SmiheC4MwVFE/CMFlOtMN6jrwPMC6TtNh8+sTMllasFeu1wMPg==
   dependencies:
     chalk "^4.0.0"
     graceful-fs "^4.2.9"
-    jest-haste-map "^29.0.2"
+    jest-haste-map "^29.0.3"
     jest-pnp-resolver "^1.2.2"
-    jest-util "^29.0.2"
-    jest-validate "^29.0.2"
+    jest-util "^29.0.3"
+    jest-validate "^29.0.3"
     resolve "^1.20.0"
     resolve.exports "^1.1.0"
     slash "^3.0.0"
@@ -12756,17 +12756,17 @@ jest-validate@^26.6.2:
     leven "^3.1.0"
     pretty-format "^26.6.2"
 
-jest-validate@^29.0.2:
-  version "29.0.2"
-  resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-29.0.2.tgz#ad86e157cc1735a3a3ea88995a611ebf8544bd67"
-  integrity sha512-AeRKm7cEucSy7tr54r3LhiGIXYvOILUwBM1S7jQkKs6YelwAlWKsmZGVrQR7uwsd31rBTnR5NQkODi1Z+6TKIQ==
+jest-validate@^29.0.2, jest-validate@^29.0.3:
+  version "29.0.3"
+  resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-29.0.3.tgz#f9521581d7344685428afa0a4d110e9c519aeeb6"
+  integrity sha512-OebiqqT6lK8cbMPtrSoS3aZP4juID762lZvpf1u+smZnwTEBCBInan0GAIIhv36MxGaJvmq5uJm7dl5gVt+Zrw==
   dependencies:
-    "@jest/types" "^29.0.2"
+    "@jest/types" "^29.0.3"
     camelcase "^6.2.0"
     chalk "^4.0.0"
     jest-get-type "^29.0.0"
     leven "^3.1.0"
-    pretty-format "^29.0.2"
+    pretty-format "^29.0.3"
 
 jest-watcher@^25.5.0:
   version "25.5.0"
@@ -17277,10 +17277,10 @@ select-hose@^2.0.0:
   resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
   integrity sha512-mEugaLK+YfkijB4fx0e6kImuJdCIt2LxCRcbEYPqRGCs4F2ogyfZU5IAZRdjCP8JPq2AtdNoC/Dux63d9Kiryg==
 
-selfsigned@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/selfsigned/-/selfsigned-2.0.1.tgz#8b2df7fa56bf014d19b6007655fff209c0ef0a56"
-  integrity sha512-LmME957M1zOsUhG+67rAjKfiWFox3SBxE/yymatMZsAx+oMrJ0YQ8AToOnyCm7xbeg2ep37IHLxdu0o2MavQOQ==
+selfsigned@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/selfsigned/-/selfsigned-2.1.1.tgz#18a7613d714c0cd3385c48af0075abf3f266af61"
+  integrity sha512-GSL3aowiF7wa/WtSFwnUrludWFoNhftq8bUkH9pkzjpN2XSPOAYEgg6e0sS9s0rZwgJzJiQRPU18A6clnoW5wQ==
   dependencies:
     node-forge "^1"
 
@@ -19504,10 +19504,10 @@ webpack-dev-middleware@^5.3.1:
     range-parser "^1.2.1"
     schema-utils "^4.0.0"
 
-webpack-dev-server@*, webpack-dev-server@4.11.0, webpack-dev-server@^4.10.1:
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-4.11.0.tgz#290ee594765cd8260adfe83b2d18115ea04484e7"
-  integrity sha512-L5S4Q2zT57SK7tazgzjMiSMBdsw+rGYIX27MgPgx7LDhWO0lViPrHKoLS7jo5In06PWYAhlYu3PbyoC6yAThbw==
+webpack-dev-server@*, webpack-dev-server@4.11.1, webpack-dev-server@^4.10.1:
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-4.11.1.tgz#ae07f0d71ca0438cf88446f09029b92ce81380b5"
+  integrity sha512-lILVz9tAUy1zGFwieuaQtYiadImb5M3d+H+L1zDYalYoDl0cksAB1UNyuE5MMWJrG6zR1tXkCP2fitl7yoUJiw==
   dependencies:
     "@types/bonjour" "^3.5.9"
     "@types/connect-history-api-fallback" "^1.3.5"
@@ -19532,7 +19532,7 @@ webpack-dev-server@*, webpack-dev-server@4.11.0, webpack-dev-server@^4.10.1:
     p-retry "^4.5.0"
     rimraf "^3.0.2"
     schema-utils "^4.0.0"
-    selfsigned "^2.0.1"
+    selfsigned "^2.1.1"
     serve-index "^1.9.1"
     sockjs "^0.3.24"
     spdy "^4.0.2"
