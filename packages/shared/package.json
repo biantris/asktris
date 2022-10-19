@@ -2,7 +2,7 @@
   "name": "@asktris/shared",
   "version": "1.0.0",
   "dependencies": {
-    "dotenv-safe": "^6.1.0",
+    "dotenv-safe": "^8.2.0",
     "graphql": "15.5.1",
     "mongoose": "5.13.5",
     "pretty-format": "29.2.1"
