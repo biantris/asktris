@@ -11876,7 +11876,7 @@ jest-environment-node@^25.5.0:
     jest-util "^25.5.0"
     semver "^6.3.0"
 
-jest-environment-node@^26.0.1, jest-environment-node@^26.6.2:
+jest-environment-node@^26.6.2:
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/jest-environment-node/-/jest-environment-node-26.6.2.tgz#824e4c7fb4944646356f11ac75b229b0035f2b0c"
   integrity sha512-zhtMio3Exty18dy8ee8eJ9kjnRyZC1N4C1Nt/VShN1apyXc8rWGtJ9lI7vqiWcyyXS4BVSEn9lxAM2D+07/Tag==
@@ -11888,17 +11888,17 @@ jest-environment-node@^26.0.1, jest-environment-node@^26.6.2:
     jest-mock "^26.6.2"
     jest-util "^26.6.2"
 
-jest-environment-node@^29.0.2:
-  version "29.0.2"
-  resolved "https://registry.yarnpkg.com/jest-environment-node/-/jest-environment-node-29.0.2.tgz#8196268c9f740f1d2e7ecccf212b4c1c5b0167e4"
-  integrity sha512-4Fv8GXVCToRlMzDO94gvA8iOzKxQ7rhAbs8L+j8GPyTxGuUiYkV+63LecGeVdVhsL2KXih1sKnoqmH6tp89J7Q==
+jest-environment-node@^29.0.2, jest-environment-node@^29.2.1:
+  version "29.2.1"
+  resolved "https://registry.yarnpkg.com/jest-environment-node/-/jest-environment-node-29.2.1.tgz#f90311d0f0e8ef720349f83c97a076e403f90665"
+  integrity sha512-PulFKwEMz6nTAdLUwglFKei3b/LixwlRiqTN6nvPE1JtrLtlnpd6LXnFI1NFHYJGlTmIWilMP2n9jEtPPKX50g==
   dependencies:
-    "@jest/environment" "^29.0.2"
-    "@jest/fake-timers" "^29.0.2"
-    "@jest/types" "^29.0.2"
+    "@jest/environment" "^29.2.1"
+    "@jest/fake-timers" "^29.2.1"
+    "@jest/types" "^29.2.1"
     "@types/node" "*"
-    jest-mock "^29.0.2"
-    jest-util "^29.0.2"
+    jest-mock "^29.2.1"
+    jest-util "^29.2.1"
 
 jest-fetch-mock@^3.0.3:
   version "3.0.3"
