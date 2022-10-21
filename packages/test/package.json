@@ -11,6 +11,6 @@
     "build": "babel src --extensions \".es6,.js,.es,.jsx,.mjs,.ts,.tsx\" --ignore *.spec.js --out-dir dist --copy-files --source-maps --verbose"
   },
   "dependencies": {
-    "mongoose": "^5.12.12"
+    "mongoose": "^6.6.6"
   }
 }
