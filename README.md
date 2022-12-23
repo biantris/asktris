@@ -15,8 +15,6 @@
     </a>
 </p>
 
-> FullStack Playgorund and Challenge at [AskLisa](https://github.com/asklisa/fullstack-challenge)
-
 ### to-do
 ➜ [to-do (kanban) ](https://github.com/users/biantris/projects/3/views/1)
 
