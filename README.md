@@ -17,6 +17,8 @@
 
 ### to-do
 ➜ [to-do (kanban) ](https://github.com/users/biantris/projects/3/views/1)
+![image](https://user-images.githubusercontent.com/65451957/214915881-c790636d-45fb-423e-8c25-19c7b4cd92c0.png)
+
 
 ### Stack
 
