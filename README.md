@@ -15,6 +15,15 @@
     </a>
 </p>
 
+### Home Page
+![image](https://user-images.githubusercontent.com/65451957/214925304-9304d9dd-5150-4401-9feb-df39e179454f.png)
+
+### Result Page
+`wip`
+
+### Create Scan Page
+![image](https://user-images.githubusercontent.com/65451957/214925487-098d13a3-75e7-48e9-b86e-c3fdc4483bb3.png)
+
 ### to-do
 ➜ [to-do (kanban) ](https://github.com/users/biantris/projects/3/views/1)
 ![image](https://user-images.githubusercontent.com/65451957/214915881-c790636d-45fb-423e-8c25-19c7b4cd92c0.png)
