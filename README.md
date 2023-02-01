@@ -38,7 +38,7 @@
 - [x] Editorconfig
 - [x] Lint staged
 - [x] Pre-commit
-- [x] Lerna + Yan Workspace
+- [x] Lerna + Yarn Workspace
 - [ ] Dockerfile
 - [x] CI/CD w/ Github Actions
 
