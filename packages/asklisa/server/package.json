@@ -1,5 +1,5 @@
 {
-  "name": "@asktris/server",
+  "name": "@asktris/asklisa-server",
   "version": "1.0.0",
   "description": "server package",
   "main": "dist/index.js",

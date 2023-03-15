@@ -1,5 +1,5 @@
 {
-  "name": "@asktris/web",
+  "name": "@asktris/asklisa-web",
   "version": "1.0.0",
   "description": "web package",
   "main": "index.tsx",

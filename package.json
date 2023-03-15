@@ -91,23 +91,20 @@
     ]
   },
   "scripts": {
-    "api": "yarn workspace @asktris/api start",
-    "api:swagger": "yarn w ./packages/api/script/generateSwagger.ts",
     "b": "babel-node --extensions \".es6,.js,.es,.jsx,.mjs,.ts,.tsx\"",
     "build": "yarn build:modules && yarn build:shared && yarn build:types && yarn build:test",
-    "build:modules": "yarn workspace @asktris/modules build",
-    "build:shared": "yarn workspace @asktris/shared build",
-    "build:types": "yarn workspace @asktris/types build",
-    "build:test": "yarn workspace @asktris/test build",
-    "web": "yarn workspace @asktris/web dev",
-    "storybook": "yarn workspace @asktris/web storybook",
+    "build:shared": "yarn workspace @asktris/asklisa-shared build",
+    "build:types": "yarn workspace @asktris/asklisa-types build",
+    "build:test": "yarn workspace @asktris/asklisa-test build",
+    "storybook": "yarn workspace @asktris/asklisa-web storybook",
     "jest": "jest",
-    "jest:server": "yarn workspace @asktris/server jest",
-    "jest:web": "yarn workspace @asktris/web jest",
+    "jest:server": "yarn workspace @asktris/asklisa-server jest",
+    "jest:web": "yarn workspace @asktris/asklisa-web jest",
     "lint": "eslint .",
     "lint:staged": "lint-staged",
     "prettier": "prettier --write --single-quote true --trailing-comma all --print-width 120",
-    "server": "yarn workspace @asktris/server start"
+    "server": "yarn workspace @asktris/asklisa-server start",
+    "web": "yarn workspace @asktris/asklisa-web dev"
   },
   "dependencies": {
     "@types/supertest": "^2.0.12",
