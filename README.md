@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://imgflip.com/i/7em5mc"><img src="https://i.imgflip.com/7em5mc.jpg" title="made at imgflip.com"/>
+  <img width="250" height:"250" src="https://i.imgflip.com/7em5mc.jpg" title="made at imgflip.com"/>
 </div>
 
 <h1 align="center">
