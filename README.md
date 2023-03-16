@@ -38,7 +38,7 @@
 - [x] Editorconfig
 - [x] Lint staged
 - [x] Pre-commit
-- [x] Turborepo + Yarn Workspace
+- [x] Turborepo
 - [ ] Dockerfile
 - [x] CI/CD w/ Github Actions
 
