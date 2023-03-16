@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should create result with success 1`] = `
+Object {
+  "message": "Result created successfully",
+  "result": Object {
+    "_id": "ObjectId",
+    "findings": Array [
+      Object {
+        "_id": "ObjectId",
+        "location": Object {
+          "path": "connectors/apigateway.go",
+          "positions": Object {
+            "begin": Object {
+              "line": 60,
+            },
+          },
+        },
+        "metadata": Object {
+          "description": "TLS InsecureSkipVerify set true.",
+          "severity": "HIGH",
+        },
+        "ruleId": "G402",
+        "type": "sast",
+      },
+    ],
+    "repositoryName": "Result Name",
+    "status": "Queued",
+  },
+  "success": true,
+}
+`;
+
+exports[`should return error if result findings it was not passed 1`] = `
+Object {
+  "message": "findings is a required field",
+}
+`;
+
+exports[`should return error if result it was not passed 1`] = `
+Object {
+  "message": "Result is required",
+}
+`;
+
+exports[`should return error if result repositoryName it was not passed 1`] = `
+Object {
+  "message": "repositoryName is a required field",
+}
+`;
+
+exports[`should return error if result status it was not passed 1`] = `
+Object {
+  "message": "status is a required field",
+}
+`;
