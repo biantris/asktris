@@ -1,5 +1,5 @@
 <h1 align="center">
-    asklisa Full-Stack
+    asktris Full-Stack
 </h1>
 
 <p align="center">
