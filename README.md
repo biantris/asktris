@@ -1,26 +1,6 @@
-<div align="center">
-  <img width="250" height:"250" src="https://i.imgflip.com/7em5mc.jpg" title="made at imgflip.com"/>
-</div>
-
 <h1 align="center">
-    asktris
+    asklisa Full-Stack
 </h1>
-
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/biantris/asktris?color=56BEB8">
-
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/biantris/asktris?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/biantris/asktris?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/biantris/asktris?color=56BEB8">
-
-  <img alt="Github issues" src="https://img.shields.io/github/issues/biantris/asktris?color=56BEB8" />
-
-  <img alt="Github forks" src="https://img.shields.io/github/forks/biantris/asktris?color=56BEB8" />
-
-  <img alt="Github stars" src="https://img.shields.io/github/stars/biantris/asktris?color=56BEB8" />
-</p>
 
 <p align="center">
    <a href="https://github.com/biantris/asktris/actions">
@@ -35,19 +15,56 @@
     </a>
 </p>
 
-> **Note**
-> This is a test repository 🧪 | It will contain several applications with various technologies and tools 🛠️ | Have fun! ✨
+### Home Page
+![image](https://user-images.githubusercontent.com/65451957/214925304-9304d9dd-5150-4401-9feb-df39e179454f.png)
 
-### Apps
+### Result Page
+`wip`
 
-#### ➜ Root
-- [x] [Asklisa CRUD Full-Stack]()
-- [ ] [Full-Stack TypeScript w/ tRPC ]()
+### Create Scan Page
+![image](https://user-images.githubusercontent.com/65451957/214925487-098d13a3-75e7-48e9-b86e-c3fdc4483bb3.png)
 
 ### to-do
 ➜ [to-do (kanban) ](https://github.com/users/biantris/projects/3/views/1)
 ![image](https://user-images.githubusercontent.com/65451957/214915881-c790636d-45fb-423e-8c25-19c7b4cd92c0.png)
 
+
+### Stack
+
+#### ➜ Root
+- [x] Linter (Eslint)
+- [x] Prettier
+- [x] Commitlint
+- [x] Editorconfig
+- [x] Lint staged
+- [x] Pre-commit
+- [x] Lerna + Yarn Workspace
+- [ ] Dockerfile
+- [x] CI/CD w/ Github Actions
+
+#### ➜ Server
+
+- [x] TypeScript
+- [x] Koa
+- [x] MongoDB
+- [x] Mongoose
+- [x] API REST
+- [x] Jest
+- [x] SuperTest
+- [x] Linter (Eslint)
+- [x] Prettier
+- [x] Webpack + babel
+
+#### ➜ Web
+- [x] TypeScript
+- [x] ReactTS
+- [x] Axios
+- [x] Semantic UI
+- [x] Jest + Testing Library
+- [x] Storybook
+- [x] Linter (Eslint)
+- [x] Prettier
+- [x] Vite
 
 ### Project architecture
 `🚧 wip 🚧`
@@ -55,14 +72,68 @@
 ```
 .
 ├── packages/
-│   └── asklisa-crud
-|   └── trpc-crud [wip]
+│   └── api [wip]
+|   └── babel
+|   └── server
+|   └── ui [wip]
+|   └── shared
+|   └── test
+|   └── types
+|   └── web
 └── ...
 ```
 
 ### Getting Started
 - clone this repo
 
+#### Server
+- go to the server path `../packages/server`
+- or `yarn server`
 
-## demos
+```sh
+# install dependencies
+> yarn
+# or
+> yarn install
+
+# copy .env file
+> cp .env.example .env
+
+# start project
+> yarn start
+
+# open in
+http://localhost:9000/api/version
+```
+#### Web
+- go to the web path `../packages/web`
+- or `yarn web`
+
+```sh
+# install dependencies
+> yarn
+# or
+> yarn install
+
+# copy .env file
+> cp .env.local .env
+
+# start project
+> yarn dev
+
+# open in
+http://localhost:8080
+```
+#### Run Storybook
+- `yarn storybook`
+![image](https://user-images.githubusercontent.com/65451957/188338652-8cabae6b-f16c-4c4f-943c-1be6e4884426.png)
+
+### APIs
+- [x] resultGet
+- [x] resultGetAll
+- [x] resultPost
+- [x] resultUpdate
+- [x] resultDelete
+
+## demo
 `🚧 wip 🚧`
