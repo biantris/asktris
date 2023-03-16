@@ -3,6 +3,7 @@ const MongodbMemoryServer = require('mongodb-memory-server-global');
 const NodeEnvironment = require('jest-environment-node');
 
 class MongoDbEnvironment extends NodeEnvironment {
+  //@ts-ignore
   constructor(config) {
     // console.error('\n# MongoDB Environment Constructor #\n');
     super(config);
