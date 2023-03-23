@@ -39,7 +39,7 @@
     "terser-webpack-plugin": "^5.3.6",
     "typescript": "^5.0.2",
     "vite": "^4.2.1",
-    "webpack": "^5.76.2",
+    "webpack": "^5.76.3",
     "webpack-cli": "^5.0.0",
     "webpack-dev-server": "^4.13.1",
     "yarn": "^1.22.19"
