@@ -3086,11 +3086,6 @@
     qs "^6.10.0"
     telejson "^7.0.3"
 
-"@storybook/channels@7.0.3":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-7.0.3.tgz#5241410b10bbd39d37770651e5284f65cac4ef53"
-  integrity sha512-X+78KlKRPfqojOj2j34qpXqcwh5O6/oIhqXB1PORPmoVPuvngSvjqeczJI11g+qEiBbs3l1CkwA/RRGnnuE1ew==
-
 "@storybook/channels@7.0.4":
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-7.0.4.tgz#d0f3bf6943a98ca35d8bdabf679f97dbcf1da7f8"
@@ -3244,14 +3239,14 @@
   resolved "https://registry.yarnpkg.com/@storybook/postinstall/-/postinstall-7.0.4.tgz#9d4c5be6fe5ee256f0512de3c0edb371cd0ce6aa"
   integrity sha512-Fl6aUg1KeIlLTsJoODSUAWzvS8QmkSuwQZClz644f++oFn8fDoM+h4S4LO2YMidWM1INHsJvdhrMu26m/CFDLA==
 
-"@storybook/preset-create-react-app@^7.0.3":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-7.0.3.tgz#d0aa36154e46d51238597965c0d0701272526b90"
-  integrity sha512-tjjrvYBL+GU7gDdqFDbO/TL22tba2FsufYRwFYPOazs4iBpnzIuWXx+McR/XN8OaW56maJQ/OhtlDTrWYPFPJw==
+"@storybook/preset-create-react-app@^7.0.4":
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-7.0.4.tgz#f7c69bef3a7f6c9cad8c0cb6ba40ab9b01d2661c"
+  integrity sha512-aYURBaEq8rXV1GaEf6FO/azL2kukwLlhOEhNb+qRbdAhXq7/+wLh+MzlWP4/nPscuMaWyaGCW4WndNOzoolUdg==
   dependencies:
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.1"
     "@storybook/react-docgen-typescript-plugin" "1.0.6--canary.9.0c3f3b7.0"
-    "@storybook/types" "7.0.3"
+    "@storybook/types" "7.0.4"
     "@types/babel__core" "^7.1.7"
     babel-plugin-react-docgen "^4.1.0"
     pnp-webpack-plugin "^1.7.0"
@@ -3341,16 +3336,6 @@
     "@storybook/client-logger" "7.0.4"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
-
-"@storybook/types@7.0.3":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.0.3.tgz#33e2c20132ed3c4231be185c3592c236b386761d"
-  integrity sha512-AafPE2QbEaT+rQn53W1UOcteP1W7iYWt1DbMJZSxXMLYVatjsoirbfMKHy/9S63Whee39CTjOxcXUBYNs+5jCA==
-  dependencies:
-    "@storybook/channels" "7.0.3"
-    "@types/babel__core" "^7.0.0"
-    "@types/express" "^4.7.0"
-    file-system-cache "^2.0.0"
 
 "@storybook/types@7.0.4":
   version "7.0.4"
