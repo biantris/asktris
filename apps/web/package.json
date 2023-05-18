@@ -36,7 +36,7 @@
     "jest-styled-components": "^7.1.1",
     "react-test-renderer": "^18.2.0",
     "serve": "^14.0.1",
-    "terser-webpack-plugin": "^5.3.8",
+    "terser-webpack-plugin": "^5.3.9",
     "typescript": "^5.0.4",
     "vite": "^4.3.7",
     "webpack": "^5.83.1",
