@@ -19,6 +19,6 @@
     "babel-plugin-require-context-hook": "1.0.0"
   },
   "devDependencies": {
-    "@types/babel__core": "7.20.0"
+    "@types/babel__core": "7.20.1"
   }
 }
