@@ -14,7 +14,7 @@
     "@asktris/babel": "*",
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.22.4",
-    "@babel/preset-react": "^7.22.3",
+    "@babel/preset-react": "^7.22.5",
     "@babel/preset-typescript": "^7.21.5",
     "@storybook/addon-docs": "^7.0.20",
     "@storybook/preset-create-react-app": "^7.0.18",
