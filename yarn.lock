@@ -3233,11 +3233,6 @@
     qs "^6.10.0"
     telejson "^7.0.3"
 
-"@storybook/channels@7.0.21":
-  version "7.0.21"
-  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-7.0.21.tgz#5a399e13b0bc4eefe52c5499ace2ca02e39d0b23"
-  integrity sha512-8h4lvGQsdWrn/eLW9D9ZGB8FGTzRuC1almykVThb9SkATKZjUyUvtRT+BklsDIinptham83+0QiSdTrv52kAfA==
-
 "@storybook/channels@7.0.22":
   version "7.0.22"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-7.0.22.tgz#f2fde192af803d05eaef90f3b713a16e58a173fe"
@@ -3393,14 +3388,14 @@
   resolved "https://registry.yarnpkg.com/@storybook/postinstall/-/postinstall-7.0.22.tgz#a77b893bc00798b1ee0b368df115e6968e0389f4"
   integrity sha512-l2eTUBzpzwjZQ9DpmTYKgHFUq+blHGu4nQ7AEHJUPEHyBUa4y2OBjm31zU18nUKIjhKBSMtEsuoRtUvYRqaShQ==
 
-"@storybook/preset-create-react-app@^7.0.21":
-  version "7.0.21"
-  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-7.0.21.tgz#6ed0cc4a1fe2c5f6640008d391316e1c729c093b"
-  integrity sha512-K/iBAVuPr9eRm8fDQpRwTVHEVOfZxB21mTnpgLgY2CIMeQi436XvH6teRvhliC2WdAK2eODAAebZ6Ry+ROx7Gw==
+"@storybook/preset-create-react-app@^7.0.22":
+  version "7.0.22"
+  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-7.0.22.tgz#bafe75d52318cd3caae25f8de30468c7371abd08"
+  integrity sha512-+jKfduCvRGty0gDv6ZfY5C7JQxven/drU70huMaOpX2uQBvkNki2ctJD/5HFyb2+C7BZnlvF9dFUQ6cGwhA5Ig==
   dependencies:
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.1"
     "@storybook/react-docgen-typescript-plugin" "1.0.6--canary.9.0c3f3b7.0"
-    "@storybook/types" "7.0.21"
+    "@storybook/types" "7.0.22"
     "@types/babel__core" "^7.1.7"
     babel-plugin-react-docgen "^4.1.0"
     pnp-webpack-plugin "^1.7.0"
@@ -3490,16 +3485,6 @@
     "@storybook/client-logger" "7.0.22"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
-
-"@storybook/types@7.0.21":
-  version "7.0.21"
-  resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.0.21.tgz#68b3e7bf667480dab546cfb3167197a1ab8f7d2a"
-  integrity sha512-gZ8XEsg0upyiisbe2Qv+G+XN2+nZCxj6vJKvgWxuBPCjqN3Uw34cgDrIJuSa8YjE/yl/nsaV5s0xYdFXAl7JVQ==
-  dependencies:
-    "@storybook/channels" "7.0.21"
-    "@types/babel__core" "^7.0.0"
-    "@types/express" "^4.7.0"
-    file-system-cache "^2.0.0"
 
 "@storybook/types@7.0.22":
   version "7.0.22"
