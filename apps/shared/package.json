@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "dotenv-safe": "^8.2.0",
-    "graphql": "16.6.0",
+    "graphql": "16.7.0",
     "mongoose": "5.13.5",
     "pretty-format": "29.5.0"
   },
