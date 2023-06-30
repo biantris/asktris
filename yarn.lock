@@ -5326,10 +5326,10 @@ babel-runtime@^6.26.0:
     core-js "^2.4.0"
     regenerator-runtime "^0.11.0"
 
-babel-watch@^7.4.1:
-  version "7.7.2"
-  resolved "https://registry.yarnpkg.com/babel-watch/-/babel-watch-7.7.2.tgz#9e4ff39f03dc344b0b9b462ba899c91e95ff0e56"
-  integrity sha512-KjC/VHLzAeg9CCSzjGXJvI6hxrQFBMk8H3l78TgN7jgLDmK7jXt2HvyvDLfQCb+KNCvY/Cuv6ia0TtgcqtpcqQ==
+babel-watch@^7.8.0:
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/babel-watch/-/babel-watch-7.8.0.tgz#19c819d7edf1a5e00a7378f83606a598dff01b55"
+  integrity sha512-Cw3l6cvkKyUFdxsPtleeuIzV7gmXRSc1IFxcrwSlWQ1ubs8ofAk1weKPiPKiX7NeQcf7AMR8qmdgbUqTjtEU9w==
   dependencies:
     chalk "^4.1.0"
     chokidar "^3.4.3"
@@ -5338,9 +5338,9 @@ babel-watch@^7.4.1:
     lodash.debounce "^4.0.8"
     lodash.isregexp "^4.0.1"
     lodash.isstring "^4.0.1"
-    signal-exit "^3.0.7"
+    signal-exit "^4.0.2"
     source-map-support "^0.5.19"
-    string-argv "^0.3.1"
+    string-argv "^0.3.2"
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -13927,6 +13927,11 @@ signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
+signal-exit@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.0.2.tgz#ff55bb1d9ff2114c13b400688fa544ac63c36967"
+  integrity sha512-MY2/qGx4enyjprQnFaZsHib3Yadh3IXyV2C321GY0pjGfVBu4un0uDJkwgdxqO+Rdx8JMT8IfJIRwbYVz3Ob3Q==
+
 simple-concat@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/simple-concat/-/simple-concat-1.0.1.tgz#f46976082ba35c2263f1c8ab5edfe26c41c9552f"
@@ -14262,10 +14267,10 @@ store2@^2.14.2:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.14.2.tgz#56138d200f9fe5f582ad63bc2704dbc0e4a45068"
   integrity sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==
 
-string-argv@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/string-argv/-/string-argv-0.3.1.tgz#95e2fbec0427ae19184935f816d74aaa4c5c19da"
-  integrity sha512-a1uQGz7IyVy9YwhqjZIZu1c8JO8dNIe20xBmSS6qu9kv++k3JGzCVmprbNN5Kn+BgzD5E7YYwg1CcjuJMRNsvg==
+string-argv@^0.3.1, string-argv@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/string-argv/-/string-argv-0.3.2.tgz#2b6d0ef24b656274d957d54e0a4bbf6153dc02b6"
+  integrity sha512-aqD2Q0144Z+/RqG52NeHEkZauTAUWJO8c6yTftGJKO3Tja5tUgIfmIl6kExvhtxSDP7fXB6DvzkfMpCd/F3G+Q==
 
 string-length@^3.1.0:
   version "3.1.0"
