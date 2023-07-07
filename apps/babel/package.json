@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@babel/cli": "7.22.5",
+    "@babel/cli": "7.22.6",
     "@babel/core": "7.21.8",
     "@babel/node": "7.22.6",
     "@babel/plugin-proposal-class-properties": "7.18.6",
