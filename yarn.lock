@@ -5431,10 +5431,10 @@ babel-runtime@^6.26.0:
     core-js "^2.4.0"
     regenerator-runtime "^0.11.0"
 
-babel-watch@^7.8.0:
-  version "7.8.0"
-  resolved "https://registry.yarnpkg.com/babel-watch/-/babel-watch-7.8.0.tgz#19c819d7edf1a5e00a7378f83606a598dff01b55"
-  integrity sha512-Cw3l6cvkKyUFdxsPtleeuIzV7gmXRSc1IFxcrwSlWQ1ubs8ofAk1weKPiPKiX7NeQcf7AMR8qmdgbUqTjtEU9w==
+babel-watch@^7.8.1:
+  version "7.8.1"
+  resolved "https://registry.yarnpkg.com/babel-watch/-/babel-watch-7.8.1.tgz#3be4016d61bfefae9522c116ef9ba209088e6498"
+  integrity sha512-TnAlLAaorqMruh3BaTiXbbuv/b8iHqqvlljaWkCCJQLRsVFn7nUKO+38+DGxEaFvlj/IgIlQlx+DMirxSHiC4g==
   dependencies:
     chalk "^4.1.0"
     chokidar "^3.4.3"
@@ -12877,7 +12877,7 @@ pretty-error@^4.0.0:
     lodash "^4.17.20"
     renderkid "^3.0.0"
 
-pretty-format@29.6.1, pretty-format@^29.0.0, pretty-format@^29.5.0, pretty-format@^29.6.0:
+pretty-format@29.6.1, pretty-format@^29.0.0, pretty-format@^29.5.0, pretty-format@^29.6.0, pretty-format@^29.6.1:
   version "29.6.1"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.6.1.tgz#ec838c288850b7c4f9090b867c2d4f4edbfb0f3e"
   integrity sha512-7jRj+yXO0W7e4/tSJKoR7HRIHLPPjtNaUGG2xxKQnGvPNRkgWcQ0AZX6P4KBRJN4FcTBWb3sa7DVUJmocYuoog==
@@ -12922,15 +12922,6 @@ pretty-format@^28.0.0, pretty-format@^28.1.3:
   dependencies:
     "@jest/schemas" "^28.1.3"
     ansi-regex "^5.0.1"
-    ansi-styles "^5.0.0"
-    react-is "^18.0.0"
-
-pretty-format@^29.6.1:
-  version "29.6.1"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.6.1.tgz#ec838c288850b7c4f9090b867c2d4f4edbfb0f3e"
-  integrity sha512-7jRj+yXO0W7e4/tSJKoR7HRIHLPPjtNaUGG2xxKQnGvPNRkgWcQ0AZX6P4KBRJN4FcTBWb3sa7DVUJmocYuoog==
-  dependencies:
-    "@jest/schemas" "^29.6.0"
     ansi-styles "^5.0.0"
     react-is "^18.0.0"
 
