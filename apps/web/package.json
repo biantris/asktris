@@ -16,7 +16,7 @@
     "@babel/preset-env": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
     "@babel/preset-typescript": "^7.22.5",
-    "@storybook/addon-docs": "^7.0.26",
+    "@storybook/addon-docs": "^7.0.27",
     "@storybook/preset-create-react-app": "^7.0.27",
     "@storybook/react": "^7.0.26",
     "@testing-library/jest-dom": "^5.16.5",
