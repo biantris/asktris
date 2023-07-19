@@ -3724,14 +3724,14 @@
   resolved "https://registry.yarnpkg.com/@storybook/postinstall/-/postinstall-7.1.0.tgz#2d8a7217cf0a255777bfe8ff308bba01b64ad5bc"
   integrity sha512-TsPCqe/2s1chhZoU2eOvjXFteZ00ALVKsTP03FMDOAVc1EkH3dIMAQE1j3ZCt0RnDW1lWfN+QMxgqrgQ/f3mMw==
 
-"@storybook/preset-create-react-app@^7.0.27":
-  version "7.0.27"
-  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-7.0.27.tgz#f2a82240137aa145cfceae2304e39a4922a541da"
-  integrity sha512-G55xJdLmIAm7ayZHoAdaCBPgEXrV00YN99yxIjXa6Z5InjsW2m9JGYVgKZ6WUunuuD/R9gWrOu+2Nq+7ibKjRw==
+"@storybook/preset-create-react-app@^7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-7.1.0.tgz#cd50fecdeb97b8d6a525747a5113b51565263165"
+  integrity sha512-e9nRBPLt8mngKb9UBElSaxxwEq4Uqi2WxQ/qr0g9yBVB1HaOoK/2CcWZykyYQ16Q1dcg2Y3bnLxq7MSCQ/lOKg==
   dependencies:
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.1"
     "@storybook/react-docgen-typescript-plugin" "1.0.6--canary.9.0c3f3b7.0"
-    "@storybook/types" "7.0.27"
+    "@storybook/types" "7.1.0"
     "@types/babel__core" "^7.1.7"
     babel-plugin-react-docgen "^4.1.0"
     pnp-webpack-plugin "^1.7.0"
