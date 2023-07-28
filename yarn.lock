@@ -9807,7 +9807,7 @@ jest-haste-map@^26.6.2:
   optionalDependencies:
     fsevents "^2.1.2"
 
-jest-haste-map@^29.5.0, jest-haste-map@^29.6.1, jest-haste-map@^29.6.2:
+jest-haste-map@^29.5.0, jest-haste-map@^29.6.2:
   version "29.6.2"
   resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-29.6.2.tgz#298c25ea5255cfad8b723179d4295cf3a50a70d1"
   integrity sha512-+51XleTDAAysvU8rT6AnS1ZJ+WHVNqhj1k6nTvN2PYP+HjU3kqlaKQ1Lnw3NYW3bm2r8vq82X0Z1nDDHZMzHVA==
@@ -10120,17 +10120,17 @@ jest-resolve@^26.6.2:
     resolve "^1.18.1"
     slash "^3.0.0"
 
-jest-resolve@^29.5.0, jest-resolve@^29.6.1:
-  version "29.6.1"
-  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-29.6.1.tgz#4c3324b993a85e300add2f8609f51b80ddea39ee"
-  integrity sha512-AeRkyS8g37UyJiP9w3mmI/VXU/q8l/IH52vj/cDAyScDcemRbSBhfX/NMYIGilQgSVwsjxrCHf3XJu4f+lxCMg==
+jest-resolve@^29.5.0, jest-resolve@^29.6.2:
+  version "29.6.2"
+  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-29.6.2.tgz#f18405fe4b50159b7b6d85e81f6a524d22afb838"
+  integrity sha512-G/iQUvZWI5e3SMFssc4ug4dH0aZiZpsDq9o1PtXTV1210Ztyb2+w+ZgQkB3iOiC5SmAEzJBOHWz6Hvrd+QnNPw==
   dependencies:
     chalk "^4.0.0"
     graceful-fs "^4.2.9"
-    jest-haste-map "^29.6.1"
+    jest-haste-map "^29.6.2"
     jest-pnp-resolver "^1.2.2"
-    jest-util "^29.6.1"
-    jest-validate "^29.6.1"
+    jest-util "^29.6.2"
+    jest-validate "^29.6.2"
     resolve "^1.20.0"
     resolve.exports "^2.0.0"
     slash "^3.0.0"
@@ -10471,17 +10471,17 @@ jest-validate@^26.6.2:
     leven "^3.1.0"
     pretty-format "^26.6.2"
 
-jest-validate@^29.5.0, jest-validate@^29.6.1:
-  version "29.6.1"
-  resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-29.6.1.tgz#765e684af6e2c86dce950aebefbbcd4546d69f7b"
-  integrity sha512-r3Ds69/0KCN4vx4sYAbGL1EVpZ7MSS0vLmd3gV78O+NAx3PDQQukRU5hNHPXlyqCgFY8XUk7EuTMLugh0KzahA==
+jest-validate@^29.5.0, jest-validate@^29.6.2:
+  version "29.6.2"
+  resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-29.6.2.tgz#25d972af35b2415b83b1373baf1a47bb266c1082"
+  integrity sha512-vGz0yMN5fUFRRbpJDPwxMpgSXW1LDKROHfBopAvDcmD6s+B/s8WJrwi+4bfH4SdInBA5C3P3BI19dBtKzx1Arg==
   dependencies:
     "@jest/types" "^29.6.1"
     camelcase "^6.2.0"
     chalk "^4.0.0"
     jest-get-type "^29.4.3"
     leven "^3.1.0"
-    pretty-format "^29.6.1"
+    pretty-format "^29.6.2"
 
 jest-watcher@^25.5.0:
   version "25.5.0"
@@ -12721,7 +12721,7 @@ pretty-error@^4.0.0:
     lodash "^4.17.20"
     renderkid "^3.0.0"
 
-pretty-format@29.6.2, pretty-format@^29.0.0, pretty-format@^29.5.0, pretty-format@^29.6.1:
+pretty-format@29.6.2, pretty-format@^29.0.0, pretty-format@^29.5.0, pretty-format@^29.6.1, pretty-format@^29.6.2:
   version "29.6.2"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.6.2.tgz#3d5829261a8a4d89d8b9769064b29c50ed486a47"
   integrity sha512-1q0oC8eRveTg5nnBEWMXAU2qpv65Gnuf2eCQzSjxpWFkPaPARwqZZDGuNE0zPAZfTCHzIk3A8dIjwlQKKLphyg==
