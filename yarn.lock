@@ -3936,10 +3936,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa@*", "@types/koa@2.13.7", "@types/koa@^2.13.7":
-  version "2.13.7"
-  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.13.7.tgz#cc90e9cc54402534be3cb13fbd809ecf3cf3da23"
-  integrity sha512-Xd9xiGmTDv57y86kQYnBZZcE9H8cJhv+aL0YH+hZIa3rbUDNdk+EY6wcJC3xCyfrVIC+vjhtNENFwisF+E8Zhg==
+"@types/koa@*", "@types/koa@2.13.8", "@types/koa@^2.13.8":
+  version "2.13.8"
+  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.13.8.tgz#4302d2f2712348aadb6c0b03eb614f30afde486b"
+  integrity sha512-Ugmxmgk/yPRW3ptBTh9VjOLwsKWJuGbymo1uGX0qdaqqL18uJiiG1ZoV0rxCOYSaDGhvEp5Ece02Amx0iwaxQQ==
   dependencies:
     "@types/accepts" "*"
     "@types/content-disposition" "*"
@@ -10435,7 +10435,7 @@ jest-util@^28.1.3:
     graceful-fs "^4.2.9"
     picomatch "^2.2.3"
 
-jest-util@^29.5.0, jest-util@^29.6.1, jest-util@^29.6.2:
+jest-util@^29.5.0, jest-util@^29.6.2:
   version "29.6.2"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-29.6.2.tgz#8a052df8fff2eebe446769fd88814521a517664d"
   integrity sha512-3eX1qb6L88lJNCFlEADKOkjpXJQyZRiavX1INZ4tRnrBVr2COd3RgcTLyUiEXMNBlDU/cgYq6taUS0fExrWW4w==
@@ -12721,7 +12721,7 @@ pretty-error@^4.0.0:
     lodash "^4.17.20"
     renderkid "^3.0.0"
 
-pretty-format@29.6.2, pretty-format@^29.0.0, pretty-format@^29.5.0, pretty-format@^29.6.1, pretty-format@^29.6.2:
+pretty-format@29.6.2, pretty-format@^29.0.0, pretty-format@^29.5.0, pretty-format@^29.6.2:
   version "29.6.2"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.6.2.tgz#3d5829261a8a4d89d8b9769064b29c50ed486a47"
   integrity sha512-1q0oC8eRveTg5nnBEWMXAU2qpv65Gnuf2eCQzSjxpWFkPaPARwqZZDGuNE0zPAZfTCHzIk3A8dIjwlQKKLphyg==
