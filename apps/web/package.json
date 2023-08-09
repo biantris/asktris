@@ -13,7 +13,7 @@
   "devDependencies": {
     "@asktris/babel": "*",
     "@babel/core": "^7.21.8",
-    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-env": "^7.22.10",
     "@babel/preset-react": "^7.22.5",
     "@babel/preset-typescript": "^7.22.5",
     "@storybook/addon-docs": "^7.2.1",
