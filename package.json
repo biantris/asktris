@@ -115,7 +115,7 @@
   },
   "dependencies": {
     "@types/supertest": "^2.0.12",
-    "axios": "^1.4.0",
+    "axios": "^1.5.0",
     "eslint-plugin-mocha-no-only": "^1.1.1",
     "jest-environment-node": "^26.0.1",
     "jest-fetch-mock": "^3.0.3",
