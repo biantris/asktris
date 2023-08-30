@@ -23,7 +23,7 @@
     "@types/babel__generator": "7.6.4",
     "@types/babel__template": "7.4.1",
     "@types/babel__traverse": "7.20.1",
-    "@types/bcryptjs": "^2.4.1",
+    "@types/bcryptjs": "^2.4.3",
     "@types/dotenv-safe": "^8.1.1",
     "@types/graphql": "^14.2.2",
     "@types/graphql-relay": "^0.7.0",
