@@ -3950,10 +3950,10 @@
   resolved "https://registry.yarnpkg.com/@types/babel__preset-env/-/babel__preset-env-7.9.3.tgz#22e0758975e248c1c947e487242dc03970fd300d"
   integrity sha512-qgNdzb7uzbraIDqZpiu3q+Ak+ZgDoPd3TGmArl9Pelky+uQYCk2wzFHRxQCjpj8aChrj1d/xaiCSZWpzfYyvMw==
 
-"@types/babel__template@*", "@types/babel__template@7.4.1":
-  version "7.4.1"
-  resolved "https://registry.yarnpkg.com/@types/babel__template/-/babel__template-7.4.1.tgz#3d1a48fd9d6c0edfd56f2ff578daed48f36c8969"
-  integrity sha512-azBFKemX6kMg5Io+/rdGT0dkGreboUVR0Cdm3fz9QJWpaQGJRQXl7C+6hOTCZcMll7KFyEQpgbYI2lHdsS4U7g==
+"@types/babel__template@*", "@types/babel__template@7.4.2":
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/@types/babel__template/-/babel__template-7.4.2.tgz#843e9f1f47c957553b0c374481dc4772921d6a6b"
+  integrity sha512-/AVzPICMhMOMYoSx9MoKpGDKdBRsIXMNByh1PXSZoa+v6ZoLa8xxtsT/uLQ/NJm0XVAWl/BvId4MlDeXJaeIZQ==
   dependencies:
     "@babel/parser" "^7.1.0"
     "@babel/types" "^7.0.0"
