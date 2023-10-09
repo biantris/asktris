@@ -114,7 +114,7 @@
     "web": "yarn workspace @asktris/web dev"
   },
   "dependencies": {
-    "@types/supertest": "^2.0.13",
+    "@types/supertest": "^2.0.14",
     "axios": "^1.5.1",
     "eslint-plugin-mocha-no-only": "^1.1.1",
     "jest-environment-node": "^26.0.1",
