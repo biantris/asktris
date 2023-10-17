@@ -11329,15 +11329,14 @@ moment@^2.29.4:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
   integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
-mongodb-client-encryption@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/mongodb-client-encryption/-/mongodb-client-encryption-2.9.0.tgz#6beea1b5d9a92533fcba45e2a6216d5ea14d05d2"
-  integrity sha512-OGMfTnS+JJ49ksWdExQ5048ynaQJLhPjbOi3i44PbU2sdufKH0Z4YZqn1pvd/eQ4WgLfbmSws3u9kAiFNFxpOg==
+mongodb-client-encryption@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/mongodb-client-encryption/-/mongodb-client-encryption-6.0.0.tgz#565eea1a246c7fb4d4e6211620012229d651963b"
+  integrity sha512-GtqkqlSq19acX006/U1odA3l+gwhvABeoTUlvvgtvSs6qcN3qSHPnur3Z5N4oKOv6fZ7EtT8rIsWP2riI0+Eyg==
   dependencies:
     bindings "^1.5.0"
     node-addon-api "^4.3.0"
     prebuild-install "^7.1.1"
-    socks "^2.7.1"
 
 mongodb-connection-string-url@^2.5.2:
   version "2.5.3"
