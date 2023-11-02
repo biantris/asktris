@@ -21,7 +21,7 @@
     "@babel/register": "7.22.15",
     "@types/babel__core": "7.20.2",
     "@types/babel__generator": "7.6.5",
-    "@types/babel__template": "7.4.2",
+    "@types/babel__template": "7.4.3",
     "@types/babel__traverse": "7.20.2",
     "@types/bcryptjs": "^2.4.4",
     "@types/dotenv-safe": "^8.1.3",
