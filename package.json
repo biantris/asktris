@@ -32,7 +32,7 @@
     "@types/koa-convert": "^1.2.6",
     "@types/koa-cors": "^0.0.3",
     "@types/koa-logger": "^3.1.4",
-    "@types/koa-multer": "^1.0.2",
+    "@types/koa-multer": "^1.0.4",
     "@types/koa-router": "^7.4.6",
     "@types/mongoose": "^5.3.7",
     "@types/node": "^20.8.10",

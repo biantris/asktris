@@ -3483,10 +3483,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-multer@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@types/koa-multer/-/koa-multer-1.0.2.tgz#bfb3558180a3579c7d55f89f7e39a38b3daf4303"
-  integrity sha512-pHN5+hvVYK5253opxE1+UsNS0hmqgIOuSO5BHz8P6Vc2GHBXcoutWkcEggCp9bTKDHPzWNH/7/KuZLDiOb2KpA==
+"@types/koa-multer@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@types/koa-multer/-/koa-multer-1.0.4.tgz#5576cb7aea56926e4d48faaa7b510b87bdfcb3db"
+  integrity sha512-Aty7k5W/bVgvCtyc7iwzjP1QXp1CPsQE3klmIEVBphK2bthjJjUpgkvFNChckA8DPxaatzFmnotWZnXLAAnLog==
   dependencies:
     "@types/koa" "*"
 
