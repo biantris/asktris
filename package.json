@@ -51,7 +51,7 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-config-shellscape": "6.0.1",
     "eslint-import-resolver-typescript": "3.6.1",
-    "eslint-import-resolver-webpack": "0.13.7",
+    "eslint-import-resolver-webpack": "0.13.8",
     "eslint-plugin-cypress": "2.15.1",
     "eslint-plugin-flowtype": "4.7.0",
     "eslint-plugin-import": "2.29.0",
