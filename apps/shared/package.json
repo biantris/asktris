@@ -4,7 +4,7 @@
   "dependencies": {
     "dotenv-safe": "^8.2.0",
     "graphql": "16.8.1",
-    "mongoose": "5.13.5",
+    "mongoose": "8.1.2",
     "pretty-format": "29.7.0"
   },
   "main": "dist/index.js",
